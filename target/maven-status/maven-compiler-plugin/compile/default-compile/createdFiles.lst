@@ -1,0 +1,7 @@
+pageObjects\ExtentReporterNG.class
+pageObjects\AmaInitialization.class
+pageObjects\ObjectsForAmaHomePage.class
+pageObjects\Initialization.class
+pageObjects\ObjectsForAviaSalesPage.class
+pageObjects\ObjectsForPages.class
+pageObjects\FlightsInitialization.class

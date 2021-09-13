@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="WARN">
+	<Properties>
+		<Property name="basePath">./Results</Property>
+	</Properties>
+	<Appenders>
+	<RollingFile name="File1"
+			fileName="${basePath}/FlightFieldsValidation.log"
+			filePattern="${basePath}/FlightFieldsValidation-%d{yyyy-MM-dd}.log">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+			<SizeBasedTriggeringPolicy size="5000" />
+		</RollingFile>
+
+		<RollingFile name="File2"
+			fileName="${basePath}/HomePageAmaCheck.log"
+			filePattern="${basePath}/HomePageAmaCheck-%d{yyyy-MM-dd}.log">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+			<SizeBasedTriggeringPolicy size="5000" />
+		</RollingFile>
+
+		<RollingFile name="File3"
+			fileName="${basePath}/HomePageSearchValidation.log"
+			filePattern="${basePath}/HomePageSearchValidation-%d{yyyy-MM-dd}.log">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+			<SizeBasedTriggeringPolicy size="5000" />
+		</RollingFile>
+
+		<RollingFile name="File4"
+			fileName="${basePath}/HomePageValidation.log"
+			filePattern="${basePath}/HomePageValidation-%d{yyyy-MM-dd}.log">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+			<SizeBasedTriggeringPolicy size="5000" />
+		</RollingFile>
+
+		<RollingFile name="File5"
+			fileName="${basePath}/TopDealsValidation.log"
+			filePattern="${basePath}/TopDealsValidation-%d{yyyy-MM-dd}.log">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+			<SizeBasedTriggeringPolicy size="5000" />
+		</RollingFile>
+	
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Logger name="testcases.FlightFieldsValidation" level="trace"
+			additivity="false">
+			<AppenderRef ref="File1" />
+		</Logger>
+		<Logger name="testcases.HomePageAmaCheck" level="trace"
+			additivity="false">
+			<AppenderRef ref="File2" />
+		</Logger>
+		<Logger name="testcases.HomePageSearchValidation" level="trace"
+			additivity="false">
+			<AppenderRef ref="File3" />
+		</Logger>
+		<Logger name="testcases.HomePageValidation" level="trace"
+			additivity="false">
+			<AppenderRef ref="File4" />
+		</Logger>
+		<Logger name="testcases.TopDealsValidation" level="trace"
+			additivity="false">
+			<AppenderRef ref="File5" />
+		</Logger>
+		<Root level="trace">
+			<AppenderRef ref="Console" />
+		</Root>
+	</Loggers>
+</Configuration>

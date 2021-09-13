@@ -1,0 +1,278 @@
+<html>
+<head>
+<title>TestNG:  AmaHomePageCheck</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AmaHomePageCheck</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 17 23:07:25 EDT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>184 seconds (184743 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.HomePageAmaCheck.getAmountBrokenLinksOnPage()'><b>getAmountBrokenLinksOnPage</b><br>Test class: testcases.HomePageAmaCheck</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	403 -:- https://www.amazon.ca/gp/css/homepage.html?ref_=nav_AccountFlyout_ya expected [true] but found [false],
+	403 -:- https://www.amazon.ca/business/register/org/landing?ref_=nav_AccountFlyout_b2b_reg expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Health-Personal-Care/b/?ie=UTF8&amp;node=6205177011&amp;ref_=nav_cs_hpc_389588d101974a76b1f2a1aec6148be2 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/automotive/b/?ie=UTF8&amp;node=6948389011&amp;ref_=nav_cs_automotive_df4975bd27a649d59f0a0f346158957a expected [true] but found [false],
+	503 -:- https://www.amazon.ca/b?node=12218500011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/b?node=9833876011&amp;ref_=gw_blb_gwc_unrec_2_outlet expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Hanes-O9264-Womens-Jersey-Short/dp/B016YKHX1S/?_encoding=UTF8&amp;pd_rd_w=xObUj&amp;pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_8604903011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Amazon-Essentials-Standard-Pack-Performance/dp/B078VYC8WD/?_encoding=UTF8&amp;pd_rd_w=xObUj&amp;pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_8604903011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/ALONG-FIT-Pockets-Compression-Leggings/dp/B081FHQ1MN/?_encoding=UTF8&amp;pd_rd_w=xObUj&amp;pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_8604903011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Sunzel-Control-Athletic-Workout-Pockets/dp/B07VFVLFD4/?_encoding=UTF8&amp;pd_rd_w=xObUj&amp;pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_8604903011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Wrangler-Authentics-Premium-Twill-Cargo/dp/B00XKXI380/?_encoding=UTF8&amp;pd_rd_w=xObUj&amp;pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_8604903011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/wirarpa-Womens-Underwear-Leggings-Multipack/dp/B07H3J8CDN/?_encoding=UTF8&amp;pd_rd_w=xObUj&amp;pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_8604903011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/TEXFIT-2-Pack-Pockets-Athletic-Stretch/dp/B085XBPM1C/?_encoding=UTF8&amp;pd_rd_w=xObUj&amp;pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_8604903011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/TEXFIT-Active-Sport-Quick-T-Shirts/dp/B07SBH7BN8/?_encoding=UTF8&amp;pd_rd_w=xObUj&amp;pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_8604903011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Jan-Jul-Adventure-Chin-Strap-Adjustable/dp/B08YPGM1RJ/?_encoding=UTF8&amp;pd_rd_w=xObUj&amp;pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_8604903011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Nintendo-HACAFSSKA-Switch-Pro-Controller/dp/B01NAWKYZ0/?_encoding=UTF8&amp;pd_rd_w=WqwHg&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Nintendo-HCCPACBAA-Animal-Crossing-Horizons/dp/B0812KNJDD/?_encoding=UTF8&amp;pd_rd_w=WqwHg&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Ring-Fit-Adventure-Nintendo-Switch/dp/B07XV4NHHN/?_encoding=UTF8&amp;pd_rd_w=WqwHg&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Beexcellent-Headphones-Cancelling-Microphone-Smartphone/dp/B0777KYQS7/?_encoding=UTF8&amp;pd_rd_w=WqwHg&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Super-Mario-Maker-2-Standard/dp/B07P6ZT3M4/?_encoding=UTF8&amp;pd_rd_w=WqwHg&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Legend-Zelda-Links-Awakening/dp/B07SZ3V193/?_encoding=UTF8&amp;pd_rd_w=WqwHg&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/b/ref=OUT_OD_DSC_D_EN_CA?node=9833876011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Plantar-Fasciitis-Support-Insoles-Inserts/dp/B07SGJKRJV/ref=br_msw_pdt-3/136-3520004-6494548?_encoding=UTF8&amp;smid=A309S6SDI6XXHQ&amp;pf_rd_m=A3DWYIK6Y9EEQB&amp;pf_rd_s=&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pf_rd_t=36701&amp;pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&amp;pf_rd_i=desktop expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Qooltek-Multipurpose-Horizontal-Vertical-Adjusted/dp/B00PQ4PJYC/ref=br_msw_pdt-6/136-3520004-6494548?_encoding=UTF8&amp;smid=A1SDOXXJN37EW9&amp;pf_rd_m=A3DWYIK6Y9EEQB&amp;pf_rd_s=&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pf_rd_t=36701&amp;pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&amp;pf_rd_i=desktop expected [true] but found [false],
+	503 -:- https://www.amazon.ca/ZAP-Mini-Bug-Zapper-Rechargeable/dp/B07CKYT9Z6/ref=br_msw_pdt-9/136-3520004-6494548?_encoding=UTF8&amp;smid=A3A9LCHPCTOCF1&amp;pf_rd_m=A3DWYIK6Y9EEQB&amp;pf_rd_s=&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pf_rd_t=36701&amp;pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&amp;pf_rd_i=desktop expected [true] but found [false],
+	503 -:- https://www.amazon.ca/4-Compartment-Removable-Compartment-Appetizer-Condiments/dp/B07ZCZMLT6/ref=br_msw_pdt-11/136-3520004-6494548?_encoding=UTF8&amp;smid=A2KGX69JZWA49Q&amp;pf_rd_m=A3DWYIK6Y9EEQB&amp;pf_rd_s=&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pf_rd_t=36701&amp;pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&amp;pf_rd_i=desktop expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Wood-Moisture-Meter-Detector-Pin-Type/dp/B07W54FD2D/ref=br_msw_pdt-12/136-3520004-6494548?_encoding=UTF8&amp;smid=A2802XISIED1MC&amp;pf_rd_m=A3DWYIK6Y9EEQB&amp;pf_rd_s=&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pf_rd_t=36701&amp;pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&amp;pf_rd_i=desktop expected [true] but found [false],
+	503 -:- https://www.amazon.ca/JIMIRE-False-Eyelashes-Fluffy-Lashes/dp/B07T9S1Z61/?_encoding=UTF8&amp;pd_rd_w=xSfkG&amp;pf_rd_p=b1cb93a1-144f-4758-8d16-f6e96914660a&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_trq_ed expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Enhances-Platinum-Sulfate-Conditioner-Bleached/dp/B07F1XK8WD/?_encoding=UTF8&amp;pd_rd_w=xSfkG&amp;pf_rd_p=b1cb93a1-144f-4758-8d16-f6e96914660a&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_trq_ed expected [true] but found [false],
+	503 -:- https://www.amazon.ca/CeraVe-Moisturizing-Lightweight-Moisturizer-Milliliters/dp/B083GG19DS/?_encoding=UTF8&amp;pd_rd_w=xSfkG&amp;pf_rd_p=b1cb93a1-144f-4758-8d16-f6e96914660a&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_trq_ed expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Remington-Replacement-Screens-Cutters-Electric/dp/B00AMLHK00/?_encoding=UTF8&amp;pd_rd_w=xSfkG&amp;pf_rd_p=b1cb93a1-144f-4758-8d16-f6e96914660a&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_trq_ed expected [true] but found [false],
+	503 -:- https://www.amazon.ca/ORS-Olive-Oil-Relaxer-No-Lye/dp/B00ON0BK6Q/?_encoding=UTF8&amp;pd_rd_w=xSfkG&amp;pf_rd_p=b1cb93a1-144f-4758-8d16-f6e96914660a&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_trq_ed expected [true] but found [false],
+	503 -:- https://www.amazon.ca/b?node=18265351011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/b?node=2055586011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Philips-Motion-Sensor-Compatible-Assistant/dp/B01KJYSOGI/?_encoding=UTF8&amp;pd_rd_w=a4Noc&amp;pf_rd_p=2878e438-72d8-47f3-993e-302dd02436ff&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Nest-Outdoor-Surveillance-Camera-Amazon/dp/B01IOW8FQQ/?_encoding=UTF8&amp;pd_rd_w=a4Noc&amp;pf_rd_p=2878e438-72d8-47f3-993e-302dd02436ff&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Nest-Indoor-Security-Camera-Amazon/dp/B00XJ59Q4E/?_encoding=UTF8&amp;pd_rd_w=a4Noc&amp;pf_rd_p=2878e438-72d8-47f3-993e-302dd02436ff&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Linksys-AC1200-Wireless-Gigabit-EA6350-CA/dp/B00S0AQZFG/?_encoding=UTF8&amp;pd_rd_w=a4Noc&amp;pf_rd_p=2878e438-72d8-47f3-993e-302dd02436ff&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/b/?&amp;node=2618860011&amp;pd_rd_w=SV8hY&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs expected [true] but found [false],
+	503 -:- https://www.amazon.ca/X-Men-Ultimate-Blu-ray-Digital-Bilingual/dp/B00KI2FYC4/?_encoding=UTF8&amp;pd_rd_w=SV8hY&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Titanic-Blu-ray-Digital-Sous-titres-fran%C3%A7ais/dp/B007UPWIZ8/?_encoding=UTF8&amp;pd_rd_w=SV8hY&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Westworld-Complete-Season-Blu-ray-Digital/dp/B073X2V62Y/?_encoding=UTF8&amp;pd_rd_w=SV8hY&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Guardians-Galaxy-Blu-ray-Digital-Bilingual/dp/B06ZXWR8C5/?_encoding=UTF8&amp;pd_rd_w=SV8hY&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/dp/B08Y71W71Z/ref=ODS_GW_Lch_DDC_TAB_TP expected [true] but found [false],
+	503 -:- https://www.amazon.ca/dp/B08F5Z44BV/ref=ODS_GW_Lch_DDC_TAB_TK expected [true] but found [false],
+	503 -:- https://www.amazon.ca/That-70s-Show-Mila-Kunis/dp/B00BUWD7Y8/?_encoding=UTF8&amp;pd_rd_w=2p5Uj&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_917972 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Harry-Potter-Complete-Collection-Bilingual/dp/B005Q6TB44/?_encoding=UTF8&amp;pd_rd_w=2p5Uj&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_917972 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Complete-Collection-Seasons-Feature-Bilingual/dp/B07GRN3D7X/?_encoding=UTF8&amp;pd_rd_w=2p5Uj&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_917972 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/GODZILLA-SHOWA-ERA-FILMS-1954-1975-Blu-ray/dp/B07VLJ9KB6/?_encoding=UTF8&amp;pd_rd_w=2p5Uj&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_917972 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Friends-Complete-Collection-Anniversary-Repackaged/dp/B07S86K91M/?_encoding=UTF8&amp;pd_rd_w=2p5Uj&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_917972 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Heartland-Complete-Thirteenth-Season-Bilingual/dp/B09175K6V9/?_encoding=UTF8&amp;pd_rd_w=2p5Uj&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_917972 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/help/customer/display.html?nodeId=200700220&amp;ref_=footer_corpres expected [true] but found [false],
+	503 -:- https://accelerator.amazon.ca/?ref_=map_1_b2b_GW_FT expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/browse.html?node=21371066011&amp;ref_=footer_swp expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/gc/create?ref_=footer_reload_ca expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/browse.html?node=8438004011&amp;ref_=footer_tfx_ca_en expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/browse.html?node=17321486011&amp;ref_=footer_cash_ca_en expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/help/customer/display.html?nodeId=915470&amp;ref_=footer_shiprates expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/browse.html?node=17351028011&amp;ref_=footer_carenew expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/help/customer/display.html?nodeId=918816&amp;ref_=footer_cou expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/help/customer/display.html?nodeId=202146130&amp;ref_=footer_iba expected [true] but found [false]
+	at testcases.HomePageAmaCheck.getAmountBrokenLinksOnPage(HomePageAmaCheck.java:83)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1171766720", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1171766720'><pre>java.lang.AssertionError: The following asserts failed:
+	403 -:- https://www.amazon.ca/gp/css/homepage.html?ref_=nav_AccountFlyout_ya expected [true] but found [false],
+	403 -:- https://www.amazon.ca/business/register/org/landing?ref_=nav_AccountFlyout_b2b_reg expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Health-Personal-Care/b/?ie=UTF8&amp;node=6205177011&amp;ref_=nav_cs_hpc_389588d101974a76b1f2a1aec6148be2 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/automotive/b/?ie=UTF8&amp;node=6948389011&amp;ref_=nav_cs_automotive_df4975bd27a649d59f0a0f346158957a expected [true] but found [false],
+	503 -:- https://www.amazon.ca/b?node=12218500011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/b?node=9833876011&amp;ref_=gw_blb_gwc_unrec_2_outlet expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Hanes-O9264-Womens-Jersey-Short/dp/B016YKHX1S/?_encoding=UTF8&amp;pd_rd_w=xObUj&amp;pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_8604903011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Amazon-Essentials-Standard-Pack-Performance/dp/B078VYC8WD/?_encoding=UTF8&amp;pd_rd_w=xObUj&amp;pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_8604903011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/ALONG-FIT-Pockets-Compression-Leggings/dp/B081FHQ1MN/?_encoding=UTF8&amp;pd_rd_w=xObUj&amp;pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_8604903011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Sunzel-Control-Athletic-Workout-Pockets/dp/B07VFVLFD4/?_encoding=UTF8&amp;pd_rd_w=xObUj&amp;pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_8604903011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Wrangler-Authentics-Premium-Twill-Cargo/dp/B00XKXI380/?_encoding=UTF8&amp;pd_rd_w=xObUj&amp;pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_8604903011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/wirarpa-Womens-Underwear-Leggings-Multipack/dp/B07H3J8CDN/?_encoding=UTF8&amp;pd_rd_w=xObUj&amp;pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_8604903011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/TEXFIT-2-Pack-Pockets-Athletic-Stretch/dp/B085XBPM1C/?_encoding=UTF8&amp;pd_rd_w=xObUj&amp;pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_8604903011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/TEXFIT-Active-Sport-Quick-T-Shirts/dp/B07SBH7BN8/?_encoding=UTF8&amp;pd_rd_w=xObUj&amp;pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_8604903011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Jan-Jul-Adventure-Chin-Strap-Adjustable/dp/B08YPGM1RJ/?_encoding=UTF8&amp;pd_rd_w=xObUj&amp;pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_8604903011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Nintendo-HACAFSSKA-Switch-Pro-Controller/dp/B01NAWKYZ0/?_encoding=UTF8&amp;pd_rd_w=WqwHg&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Nintendo-HCCPACBAA-Animal-Crossing-Horizons/dp/B0812KNJDD/?_encoding=UTF8&amp;pd_rd_w=WqwHg&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Ring-Fit-Adventure-Nintendo-Switch/dp/B07XV4NHHN/?_encoding=UTF8&amp;pd_rd_w=WqwHg&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Beexcellent-Headphones-Cancelling-Microphone-Smartphone/dp/B0777KYQS7/?_encoding=UTF8&amp;pd_rd_w=WqwHg&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Super-Mario-Maker-2-Standard/dp/B07P6ZT3M4/?_encoding=UTF8&amp;pd_rd_w=WqwHg&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Legend-Zelda-Links-Awakening/dp/B07SZ3V193/?_encoding=UTF8&amp;pd_rd_w=WqwHg&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/b/ref=OUT_OD_DSC_D_EN_CA?node=9833876011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Plantar-Fasciitis-Support-Insoles-Inserts/dp/B07SGJKRJV/ref=br_msw_pdt-3/136-3520004-6494548?_encoding=UTF8&amp;smid=A309S6SDI6XXHQ&amp;pf_rd_m=A3DWYIK6Y9EEQB&amp;pf_rd_s=&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pf_rd_t=36701&amp;pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&amp;pf_rd_i=desktop expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Qooltek-Multipurpose-Horizontal-Vertical-Adjusted/dp/B00PQ4PJYC/ref=br_msw_pdt-6/136-3520004-6494548?_encoding=UTF8&amp;smid=A1SDOXXJN37EW9&amp;pf_rd_m=A3DWYIK6Y9EEQB&amp;pf_rd_s=&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pf_rd_t=36701&amp;pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&amp;pf_rd_i=desktop expected [true] but found [false],
+	503 -:- https://www.amazon.ca/ZAP-Mini-Bug-Zapper-Rechargeable/dp/B07CKYT9Z6/ref=br_msw_pdt-9/136-3520004-6494548?_encoding=UTF8&amp;smid=A3A9LCHPCTOCF1&amp;pf_rd_m=A3DWYIK6Y9EEQB&amp;pf_rd_s=&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pf_rd_t=36701&amp;pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&amp;pf_rd_i=desktop expected [true] but found [false],
+	503 -:- https://www.amazon.ca/4-Compartment-Removable-Compartment-Appetizer-Condiments/dp/B07ZCZMLT6/ref=br_msw_pdt-11/136-3520004-6494548?_encoding=UTF8&amp;smid=A2KGX69JZWA49Q&amp;pf_rd_m=A3DWYIK6Y9EEQB&amp;pf_rd_s=&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pf_rd_t=36701&amp;pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&amp;pf_rd_i=desktop expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Wood-Moisture-Meter-Detector-Pin-Type/dp/B07W54FD2D/ref=br_msw_pdt-12/136-3520004-6494548?_encoding=UTF8&amp;smid=A2802XISIED1MC&amp;pf_rd_m=A3DWYIK6Y9EEQB&amp;pf_rd_s=&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pf_rd_t=36701&amp;pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&amp;pf_rd_i=desktop expected [true] but found [false],
+	503 -:- https://www.amazon.ca/JIMIRE-False-Eyelashes-Fluffy-Lashes/dp/B07T9S1Z61/?_encoding=UTF8&amp;pd_rd_w=xSfkG&amp;pf_rd_p=b1cb93a1-144f-4758-8d16-f6e96914660a&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_trq_ed expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Enhances-Platinum-Sulfate-Conditioner-Bleached/dp/B07F1XK8WD/?_encoding=UTF8&amp;pd_rd_w=xSfkG&amp;pf_rd_p=b1cb93a1-144f-4758-8d16-f6e96914660a&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_trq_ed expected [true] but found [false],
+	503 -:- https://www.amazon.ca/CeraVe-Moisturizing-Lightweight-Moisturizer-Milliliters/dp/B083GG19DS/?_encoding=UTF8&amp;pd_rd_w=xSfkG&amp;pf_rd_p=b1cb93a1-144f-4758-8d16-f6e96914660a&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_trq_ed expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Remington-Replacement-Screens-Cutters-Electric/dp/B00AMLHK00/?_encoding=UTF8&amp;pd_rd_w=xSfkG&amp;pf_rd_p=b1cb93a1-144f-4758-8d16-f6e96914660a&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_trq_ed expected [true] but found [false],
+	503 -:- https://www.amazon.ca/ORS-Olive-Oil-Relaxer-No-Lye/dp/B00ON0BK6Q/?_encoding=UTF8&amp;pd_rd_w=xSfkG&amp;pf_rd_p=b1cb93a1-144f-4758-8d16-f6e96914660a&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_trq_ed expected [true] but found [false],
+	503 -:- https://www.amazon.ca/b?node=18265351011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/b?node=2055586011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Philips-Motion-Sensor-Compatible-Assistant/dp/B01KJYSOGI/?_encoding=UTF8&amp;pd_rd_w=a4Noc&amp;pf_rd_p=2878e438-72d8-47f3-993e-302dd02436ff&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Nest-Outdoor-Surveillance-Camera-Amazon/dp/B01IOW8FQQ/?_encoding=UTF8&amp;pd_rd_w=a4Noc&amp;pf_rd_p=2878e438-72d8-47f3-993e-302dd02436ff&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Nest-Indoor-Security-Camera-Amazon/dp/B00XJ59Q4E/?_encoding=UTF8&amp;pd_rd_w=a4Noc&amp;pf_rd_p=2878e438-72d8-47f3-993e-302dd02436ff&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Linksys-AC1200-Wireless-Gigabit-EA6350-CA/dp/B00S0AQZFG/?_encoding=UTF8&amp;pd_rd_w=a4Noc&amp;pf_rd_p=2878e438-72d8-47f3-993e-302dd02436ff&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/b/?&amp;node=2618860011&amp;pd_rd_w=SV8hY&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs expected [true] but found [false],
+	503 -:- https://www.amazon.ca/X-Men-Ultimate-Blu-ray-Digital-Bilingual/dp/B00KI2FYC4/?_encoding=UTF8&amp;pd_rd_w=SV8hY&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Titanic-Blu-ray-Digital-Sous-titres-fran%C3%A7ais/dp/B007UPWIZ8/?_encoding=UTF8&amp;pd_rd_w=SV8hY&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Westworld-Complete-Season-Blu-ray-Digital/dp/B073X2V62Y/?_encoding=UTF8&amp;pd_rd_w=SV8hY&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Guardians-Galaxy-Blu-ray-Digital-Bilingual/dp/B06ZXWR8C5/?_encoding=UTF8&amp;pd_rd_w=SV8hY&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/dp/B08Y71W71Z/ref=ODS_GW_Lch_DDC_TAB_TP expected [true] but found [false],
+	503 -:- https://www.amazon.ca/dp/B08F5Z44BV/ref=ODS_GW_Lch_DDC_TAB_TK expected [true] but found [false],
+	503 -:- https://www.amazon.ca/That-70s-Show-Mila-Kunis/dp/B00BUWD7Y8/?_encoding=UTF8&amp;pd_rd_w=2p5Uj&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_917972 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Harry-Potter-Complete-Collection-Bilingual/dp/B005Q6TB44/?_encoding=UTF8&amp;pd_rd_w=2p5Uj&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_917972 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Complete-Collection-Seasons-Feature-Bilingual/dp/B07GRN3D7X/?_encoding=UTF8&amp;pd_rd_w=2p5Uj&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_917972 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/GODZILLA-SHOWA-ERA-FILMS-1954-1975-Blu-ray/dp/B07VLJ9KB6/?_encoding=UTF8&amp;pd_rd_w=2p5Uj&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_917972 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Friends-Complete-Collection-Anniversary-Repackaged/dp/B07S86K91M/?_encoding=UTF8&amp;pd_rd_w=2p5Uj&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_917972 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Heartland-Complete-Thirteenth-Season-Bilingual/dp/B09175K6V9/?_encoding=UTF8&amp;pd_rd_w=2p5Uj&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=T7KAFKBH2SZF3ZHV6G7C&amp;pd_rd_r=a697e237-2106-442f-9084-1c03010e58f6&amp;pd_rd_wg=a8ixs&amp;ref_=pd_gw_crs_zg_bs_917972 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/help/customer/display.html?nodeId=200700220&amp;ref_=footer_corpres expected [true] but found [false],
+	503 -:- https://accelerator.amazon.ca/?ref_=map_1_b2b_GW_FT expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/browse.html?node=21371066011&amp;ref_=footer_swp expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/gc/create?ref_=footer_reload_ca expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/browse.html?node=8438004011&amp;ref_=footer_tfx_ca_en expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/browse.html?node=17321486011&amp;ref_=footer_cash_ca_en expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/help/customer/display.html?nodeId=915470&amp;ref_=footer_shiprates expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/browse.html?node=17351028011&amp;ref_=footer_carenew expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/help/customer/display.html?nodeId=918816&amp;ref_=footer_cou expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/help/customer/display.html?nodeId=202146130&amp;ref_=footer_iba expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at testcases.HomePageAmaCheck.getAmountBrokenLinksOnPage(HomePageAmaCheck.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>175</td>
+<td>testcases.HomePageAmaCheck@31d0e481</td></tr>
+<tr>
+<td title='testcases.HomePageAmaCheck.getAmountBrokenLinksOnPage()'><b>getAmountBrokenLinksOnPage</b><br>Test class: testcases.HomePageAmaCheck</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)&quot; because &quot;screenshot&quot; is null
+	at pageObjects.Initialization.takeScreenShot(Initialization.java:117)
+	at testcases.Listeners.onTestFailure(Listeners.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace433802161", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace433802161'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)&quot; because &quot;screenshot&quot; is null
+	at pageObjects.Initialization.takeScreenShot(Initialization.java:117)
+	at testcases.Listeners.onTestFailure(Listeners.java:40)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:96)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:220)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:657)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>175</td>
+<td>testcases.HomePageAmaCheck@31d0e481</td></tr>
+</table><p>
+</body>
+</html>

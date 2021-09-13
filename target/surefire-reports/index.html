@@ -1,0 +1,1432 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-EcommerceApps" class="navigator-link">
+              <span class="suite-name border-failed">EcommerceApps</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-EcommerceApps" class="navigator-link ">
+                    <span>C:\Users\user\eclipse-workspaceNewProjects\TestNGModulValidation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-EcommerceApps" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-EcommerceApps" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-EcommerceApps" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-EcommerceApps" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-EcommerceApps" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-EcommerceApps" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">40 methods, 1 failed,   39 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-EcommerceApps" class="hide-methods failed suite-EcommerceApps"> (hide)</a> <!-- hide-methods failed suite-EcommerceApps -->
+                      <a href="#" panel-name="suite-EcommerceApps" class="show-methods failed suite-EcommerceApps"> (show)</a> <!-- show-methods failed suite-EcommerceApps -->
+                    </span>
+                    <div class="method-list-content failed suite-EcommerceApps">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.HomePageAmaCheck" class="method navigator-link" hash-for-method="getAmountBrokenLinksOnPage">getAmountBrokenLinksOnPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-EcommerceApps -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-EcommerceApps" class="hide-methods passed suite-EcommerceApps"> (hide)</a> <!-- hide-methods passed suite-EcommerceApps -->
+                      <a href="#" panel-name="suite-EcommerceApps" class="show-methods passed suite-EcommerceApps"> (show)</a> <!-- show-methods passed suite-EcommerceApps -->
+                    </span>
+                    <div class="method-list-content passed suite-EcommerceApps">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.FlightFieldsValidation" class="method navigator-link" hash-for-method="activeDateCheck">activeDateCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.FlightFieldsValidation" class="method navigator-link" hash-for-method="airportArrivalChoose">airportArrivalChoose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.FlightFieldsValidation" class="method navigator-link" hash-for-method="airportDestinationChoose">airportDestinationChoose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.FlightFieldsValidation" class="method navigator-link" hash-for-method="airportFromFieldClick">airportFromFieldClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.FlightFieldsValidation" class="method navigator-link" hash-for-method="airportFromSearchCheck">airportFromSearchCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.FlightFieldsValidation" class="method navigator-link" hash-for-method="airportToFieldClick">airportToFieldClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.FlightFieldsValidation" class="method navigator-link" hash-for-method="airportToSearchCheck">airportToSearchCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.FlightFieldsValidation" class="method navigator-link" hash-for-method="buttonSearchClick">buttonSearchClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.TopDealsValidation" class="method navigator-link" hash-for-method="checkDisableDefaultsFirstButton">checkDisableDefaultsFirstButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.TopDealsValidation" class="method navigator-link" hash-for-method="checkEnableButtons">checkEnableButtons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.FlightFieldsValidation" class="method navigator-link" hash-for-method="checkListAirsFrom">checkListAirsFrom</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.FlightFieldsValidation" class="method navigator-link" hash-for-method="checkListAirsTo">checkListAirsTo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.TopDealsValidation" class="method navigator-link" hash-for-method="checkNumberItemsDefaultOnPage">checkNumberItemsDefaultOnPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.TopDealsValidation" class="method navigator-link" hash-for-method="checkNumberItemsInTable">checkNumberItemsInTable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.TopDealsValidation" class="method navigator-link" hash-for-method="checkOrderItemsAfterArrowClick">checkOrderItemsAfterArrowClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.TopDealsValidation" class="method navigator-link" hash-for-method="checkOrderOfItemsByDefault">checkOrderOfItemsByDefault</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.HomePageValidation" class="method navigator-link" hash-for-method="checkSuccessText">checkSuccessText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.HomePageValidation" class="method navigator-link" hash-for-method="chooseCountry">chooseCountry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.HomePageValidation" class="method navigator-link" hash-for-method="chooseItemsToCart">chooseItemsToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.FlightFieldsValidation" class="method navigator-link" hash-for-method="chooseTravelAirline">chooseTravelAirline</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.HomePageValidation" class="method navigator-link" hash-for-method="clickAgreeCheckBox">clickAgreeCheckBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.HomePageValidation" class="method navigator-link" hash-for-method="clickGoToCartButton">clickGoToCartButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.TopDealsValidation" class="method navigator-link" hash-for-method="clickPageButton">clickPageButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.HomePageValidation" class="method navigator-link" hash-for-method="clickProceedButton">clickProceedButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.FlightFieldsValidation" class="method navigator-link" hash-for-method="dateTripChoose">dateTripChoose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.TopDealsValidation" class="method navigator-link" hash-for-method="dealButtonClick">dealButtonClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.TopDealsValidation" class="method navigator-link" hash-for-method="getButtonsText">getButtonsText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.HomePageValidation" class="method navigator-link" hash-for-method="getProductsNumberInCart">getProductsNumberInCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.HomePageSearchValidation" class="method navigator-link" hash-for-method="getSearchField(hs)">getSearchField(hs)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.HomePageSearchValidation" class="method navigator-link" hash-for-method="getSearchField(yf)">getSearchField(yf)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.HomePageSearchValidation" class="method navigator-link" hash-for-method="getSearchField(ol)">getSearchField(ol)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.HomePageSearchValidation" class="method navigator-link" hash-for-method="getSearchField(ua)">getSearchField(ua)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.HomePageSearchValidation" class="method navigator-link" hash-for-method="getSearchField(qj)">getSearchField(qj)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.FlightFieldsValidation" class="method navigator-link" hash-for-method="languageChoose">languageChoose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.HomePageValidation" class="method navigator-link" hash-for-method="numberOfItemsValidation">numberOfItemsValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.FlightFieldsValidation" class="method navigator-link" hash-for-method="plusMinusDatesChoose">plusMinusDatesChoose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.HomePageValidation" class="method navigator-link" hash-for-method="pushCartButton">pushCartButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.HomePageValidation" class="method navigator-link" hash-for-method="setPromoCode">setPromoCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EcommerceApps" title="testcases.HomePageValidation" class="method navigator-link" hash-for-method="totalAmountCompare">totalAmountCompare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-EcommerceApps -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-EcommerceApps" class="panel EcommerceApps">
+          <div class="suite-EcommerceApps-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.HomePageAmaCheck</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAmountBrokenLinksOnPage">
+                  </a> <!-- getAmountBrokenLinksOnPage -->
+                  <span class="method-name">getAmountBrokenLinksOnPage</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	503 -:- https://www.amazon.ca/gp/registry/wishlist?triggerElementID=createList&amp;ref_=nav_ListFlyout_gno_createwl expected [true] but found [false],
+	403 -:- https://www.amazon.ca/gp/css/homepage.html?ref_=nav_AccountFlyout_ya expected [true] but found [false],
+	403 -:- https://www.amazon.ca/business/register/org/landing?ref_=nav_AccountFlyout_b2b_reg expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Best-Sellers-generic/zgbs/?ref_=nav_cs_bestsellers_5e07a0361d744326ae799da4b354adca expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/help/customer/display.html?ref_=nav_cs_help_80966742f8c54e26897f6ff675864430 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/browse.html?node=2206275011&amp;ref_=nav_cs_home_e30810812540476da315f95f4c1cba0c expected [true] but found [false],
+	503 -:- https://www.amazon.ca/b/?node=12218500011&amp;ref_=nav_cs_coupons_5c0b5095bded47dc9dbbe58103090fe1 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Health-Personal-Care/b/?ie=UTF8&amp;node=6205177011&amp;ref_=nav_cs_hpc_389588d101974a76b1f2a1aec6148be2 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/video-games-hardware-accessories/b/?ie=UTF8&amp;node=3198031&amp;ref_=nav_cs_video_games_96df7f31fc134377b70784ea57f4ff5c expected [true] but found [false],
+	503 -:- https://www.amazon.ca/automotive/b/?ie=UTF8&amp;node=6948389011&amp;ref_=nav_cs_automotive_df4975bd27a649d59f0a0f346158957a expected [true] but found [false],
+	503 -:- https://www.amazon.ca/grocery/b/?ie=UTF8&amp;node=6967215011&amp;ref_=nav_cs_grocery_96a59c746dd945d6a7d9911411f06a1b expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Beauty/b/?ie=UTF8&amp;node=6205124011&amp;ref_=nav_cs_beauty_46f9bd5d21484218b9b15a4779dcd14a expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/browse.html?node=2972705011&amp;ref_=nav_cs_kindle_books_30c4ac32cf754895b19193fffbb9870c expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/browse.html?node=19700946011&amp;ref_=nav_cs_registry_e33c68e88c844208a181299c83810267 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/browse.html?node=17386909011&amp;ref_=ods_gw_evg_gwd_btf_smp_quad2_en_06011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/stores/page/41142C83-E6F1-4111-9920-256E042CFC98 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Crate-61-essential-lemongrass-grapefruit/dp/B07CL4G9CF/?_encoding=UTF8&amp;pd_rd_w=2lUnZ&amp;pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_trq_ed expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Rose-Leven-Moroccan-Rosewater-Hydrosol/dp/B016LC861A/?_encoding=UTF8&amp;pd_rd_w=2lUnZ&amp;pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_trq_ed expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Teals-lavender-epsom-salts-kilogram/dp/B071YLD8J6/?_encoding=UTF8&amp;pd_rd_w=2lUnZ&amp;pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_trq_ed expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Oral-B-Sensitive-Replacement-Electric-Toothbrush/dp/B00006ANDK/?_encoding=UTF8&amp;pd_rd_w=2lUnZ&amp;pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_trq_ed expected [true] but found [false],
+	503 -:- https://www.amazon.ca/CeraVe-Moisturizing-Lightweight-Moisturizer-Milliliters/dp/B083GG19DS/?_encoding=UTF8&amp;pd_rd_w=2lUnZ&amp;pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_trq_ed expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Nintendo-Switch-Neon-Blue-Joy%E2%80%91/dp/B07VGRJDFY/?_encoding=UTF8&amp;pd_rd_w=Es9bG&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Elgato-Game-Capture-HD60-technology/dp/B01DRWCOGA/?_encoding=UTF8&amp;pd_rd_w=Es9bG&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Legend-Zelda-Breath-Wild-Switch/dp/B01N33O68B/?_encoding=UTF8&amp;pd_rd_w=Es9bG&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Nintendo-HCCPADFJA-Super-Mario-Party/dp/B07DQ7KC8Q/?_encoding=UTF8&amp;pd_rd_w=Es9bG&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/SanDisk-MicroSDXC-Nintendo-Switch-SDSQXAO-128G-GNCZN/dp/B07KXQX3S3/?_encoding=UTF8&amp;pd_rd_w=Es9bG&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/PULSE-3D-Wireless-Headset-Pulse/dp/B08GSBRR9Q/?_encoding=UTF8&amp;pd_rd_w=Es9bG&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Hammermill-Bright-Letter-Sheets-113620/dp/B06XRMJPJC/?_encoding=UTF8&amp;pd_rd_w=E0oIT&amp;pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_trq_ed expected [true] but found [false],
+	503 -:- https://www.amazon.ca/HP-Tri-Color-Original-Cartridges-N9H63FN/dp/B015IZ1E7E/?_encoding=UTF8&amp;pd_rd_w=E0oIT&amp;pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_trq_ed expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Public-Mobile-Card-Unlocked-Phones/dp/B07R6P5KBB/?_encoding=UTF8&amp;pd_rd_w=E0oIT&amp;pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_trq_ed expected [true] but found [false],
+	503 -:- https://www.amazon.ca/First-100-Words-Roger-Priddy/dp/0312510780/?_encoding=UTF8&amp;pd_rd_w=yNENG&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Atlas-Six-Olivie-Blake/dp/167991099X/?_encoding=UTF8&amp;pd_rd_w=yNENG&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Five-Little-Indians-Michelle-Good/dp/1443459186/?_encoding=UTF8&amp;pd_rd_w=yNENG&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Atomic-Habits-Proven-Build-Break/dp/0735211299/?_encoding=UTF8&amp;pd_rd_w=yNENG&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Malibu-Rising-Taylor-Jenkins-Reid/dp/038569220X/?_encoding=UTF8&amp;pd_rd_w=yNENG&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Blood-Ash-Jennifer-L-Armentrout/dp/1952457009/?_encoding=UTF8&amp;pd_rd_w=yNENG&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Your-Babys-First-Word-Will/dp/125007181X/?_encoding=UTF8&amp;pd_rd_w=yNENG&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Goodnight-Moon-Board-Margaret-Brown/dp/0694003611/?_encoding=UTF8&amp;pd_rd_w=yNENG&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Its-OK-Different-Childrens-Diversity/dp/0973410450/?_encoding=UTF8&amp;pd_rd_w=yNENG&amp;pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Mkicesky-Sleeping-Orthopedic-Ergonomic-Pillowcase/dp/B08FJ9737F/ref=br_msw_pdt-1/146-9613179-8350611?_encoding=UTF8&amp;smid=A2LZE0AJFZI27V&amp;pf_rd_m=A3DWYIK6Y9EEQB&amp;pf_rd_s=&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pf_rd_t=36701&amp;pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&amp;pf_rd_i=desktop expected [true] but found [false],
+	503 -:- https://www.amazon.ca/BOGI-Microfiber-Travel-Sports-Compact/dp/B077VQKR9Y/ref=br_msw_pdt-2/146-9613179-8350611?_encoding=UTF8&amp;smid=A3D24YATG4ZDQZ&amp;pf_rd_m=A3DWYIK6Y9EEQB&amp;pf_rd_s=&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pf_rd_t=36701&amp;pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&amp;pf_rd_i=desktop expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Premiere-Collection-Comfort-Difference-Charcoal/dp/B07DG3PMWK/ref=br_msw_pdt-4/146-9613179-8350611?_encoding=UTF8&amp;smid=ALSACIQQS2IQL&amp;pf_rd_m=A3DWYIK6Y9EEQB&amp;pf_rd_s=&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pf_rd_t=36701&amp;pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&amp;pf_rd_i=desktop expected [true] but found [false],
+	503 -:- https://www.amazon.ca/BESTOPE-Synthetic-Foundation-Blending-Concealers/dp/B07BMRVSFS/ref=br_msw_pdt-6/146-9613179-8350611?_encoding=UTF8&amp;smid=A3T1UHEPNW0KQ8&amp;pf_rd_m=A3DWYIK6Y9EEQB&amp;pf_rd_s=&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pf_rd_t=36701&amp;pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&amp;pf_rd_i=desktop expected [true] but found [false],
+	503 -:- https://www.amazon.ca/RELLECIGA-Womens-Purple-Waisted-Swimwear/dp/B0811LSGYB/ref=br_msw_pdt-10/146-9613179-8350611?_encoding=UTF8&amp;smid=A1Z8HJXEZSSA0O&amp;pf_rd_m=A3DWYIK6Y9EEQB&amp;pf_rd_s=&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pf_rd_t=36701&amp;pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&amp;pf_rd_i=desktop expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Cadrim-Clothes-Steamer-Portable-Handheld/dp/B083SCZ7K7/ref=br_msw_pdt-11/146-9613179-8350611?_encoding=UTF8&amp;smid=A3QWIRA3CQ13JS&amp;pf_rd_m=A3DWYIK6Y9EEQB&amp;pf_rd_s=&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pf_rd_t=36701&amp;pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&amp;pf_rd_i=desktop expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Treatment-Promote-Stretch-C-Sections-Surgical/dp/B08Q2Y1S6L/ref=br_msw_pdt-12/146-9613179-8350611?_encoding=UTF8&amp;smid=A2LBT1C022LJC3&amp;pf_rd_m=A3DWYIK6Y9EEQB&amp;pf_rd_s=&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pf_rd_t=36701&amp;pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&amp;pf_rd_i=desktop expected [true] but found [false],
+	503 -:- https://www.amazon.ca/MLANM-Sleeve-Casual-Slim-fit-Cotton/dp/B08S6XWGTX/ref=br_msw_pdt-14/146-9613179-8350611?_encoding=UTF8&amp;smid=AP2P9RKFCKBNN&amp;pf_rd_m=A3DWYIK6Y9EEQB&amp;pf_rd_s=&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pf_rd_t=36701&amp;pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&amp;pf_rd_i=desktop expected [true] but found [false],
+	503 -:- https://www.amazon.ca/CeraVe-Hydrating-Cleanser-Sensitive-Fragrance-Free/dp/B0843XGN3H/?_encoding=UTF8&amp;pd_rd_w=WAhKX&amp;pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_crs_zg_bs_6205124011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/MelodySusie-Portable-Electric-Nail-Drill/dp/B01H05EDK0/?_encoding=UTF8&amp;pd_rd_w=WAhKX&amp;pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_crs_zg_bs_6205124011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/THINKA-PROCEDURE-MASK-EARLOOPS-50pcs/dp/B08K4J9755/?_encoding=UTF8&amp;pd_rd_w=WAhKX&amp;pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_crs_zg_bs_6205124011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/b?node=18265355011 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Brightening-Hyaluronic-Fragrance-Dermatologist-Recommended/dp/B07Q4PY2DQ/ expected [true] but found [false],
+	503 -:- https://www.amazon.ca/BABOR-CLEANSING-Rose-Toning-Essence/dp/B074KJ5KZS/ expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Mario-Badescu-Glycolic-Acid-Toner/dp/B000PHZ7HO/ expected [true] but found [false],
+	503 -:- https://www.amazon.ca/b/?&amp;node=2618860011&amp;pd_rd_w=q1vxB&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Tomb-Raider-Bilingual-Blu-Ray-Digital/dp/B07BZBCWV8/?_encoding=UTF8&amp;pd_rd_w=q1vxB&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Panther-Blu-ray-Bilingual-Chadwick-Boseman/dp/B079FLP3R2/?_encoding=UTF8&amp;pd_rd_w=q1vxB&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Star-Wars-Episode-Blu-ray-Bilingual/dp/B0788FL36D/?_encoding=UTF8&amp;pd_rd_w=q1vxB&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Wonder-Woman-Blu-ray-Chris-Wright/dp/B071LSNTVC/?_encoding=UTF8&amp;pd_rd_w=q1vxB&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Spider-Man-Homecoming-Bilingual-Tom-Holland/dp/B073S1R6KJ/?_encoding=UTF8&amp;pd_rd_w=q1vxB&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Rise-Planet-Apes-Bilingual-Blu-ray/dp/B00JF5G8V6/?_encoding=UTF8&amp;pd_rd_w=q1vxB&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/X-Men-Ultimate-Blu-ray-Digital-Bilingual/dp/B00KI2FYC4/?_encoding=UTF8&amp;pd_rd_w=q1vxB&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Titanic-Blu-ray-Digital-Sous-titres-fran%C3%A7ais/dp/B007UPWIZ8/?_encoding=UTF8&amp;pd_rd_w=q1vxB&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/John-Wick-Chapter-Blu-ray-Bilingual/dp/B06ZZ5RMNH/?_encoding=UTF8&amp;pd_rd_w=q1vxB&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Guardians-Galaxy-Blu-ray-Digital-Bilingual/dp/B06ZXWR8C5/?_encoding=UTF8&amp;pd_rd_w=q1vxB&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/Deadpool-Blu-ray-Digital-Copy-Bilingual/dp/B01BT0BFSU/?_encoding=UTF8&amp;pd_rd_w=q1vxB&amp;pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&amp;pf_rd_r=20WSD1GPYE79B706TWPQ&amp;pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&amp;pd_rd_wg=6Peg4&amp;ref_=pd_gw_unk expected [true] but found [false],
+	503 -:- https://www.amazon.ca/dp/B07MJM4F44?plattr=CACBCCFOOT&amp;ref_=nav_cbcc_ca_footer expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/browse.html?node=21371066011&amp;ref_=footer_swp expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/gc/create?ref_=footer_reload_ca expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/browse.html?node=8438004011&amp;ref_=footer_tfx_ca_en expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/browse.html?node=9230166011&amp;ref_=footer_gift_cards_ca_en expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/browse.html?node=17321486011&amp;ref_=footer_cash_ca_en expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/css/returns/homepage.html?ref_=footer_hy_f_4 expected [true] but found [false],
+	503 -:- https://www.amazon.ca/?ref_=footer_logo expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/browse.html?node=16055944011&amp;ref_=_gno_p_foot expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/browse.html?node=8929975011&amp;ref_=footer_warehouse_deals expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/browse.html?node=17351028011&amp;ref_=footer_carenew expected [true] but found [false],
+	503 -:- https://www.amazon.ca/gp/help/customer/display.html?nodeId=202146130&amp;ref_=footer_iba expected [true] but found [false]
+	at testcases.HomePageAmaCheck.getAmountBrokenLinksOnPage(HomePageAmaCheck.java:85)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EcommerceApps-class-failed -->
+          <div class="suite-EcommerceApps-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TopDealsValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDisableDefaultsFirstButton">
+                  </a> <!-- checkDisableDefaultsFirstButton -->
+                  <span class="method-name">checkDisableDefaultsFirstButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkEnableButtons">
+                  </a> <!-- checkEnableButtons -->
+                  <span class="method-name">checkEnableButtons</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkNumberItemsDefaultOnPage">
+                  </a> <!-- checkNumberItemsDefaultOnPage -->
+                  <span class="method-name">checkNumberItemsDefaultOnPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkNumberItemsInTable">
+                  </a> <!-- checkNumberItemsInTable -->
+                  <span class="method-name">checkNumberItemsInTable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOrderItemsAfterArrowClick">
+                  </a> <!-- checkOrderItemsAfterArrowClick -->
+                  <span class="method-name">checkOrderItemsAfterArrowClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOrderOfItemsByDefault">
+                  </a> <!-- checkOrderOfItemsByDefault -->
+                  <span class="method-name">checkOrderOfItemsByDefault</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickPageButton">
+                  </a> <!-- clickPageButton -->
+                  <span class="method-name">clickPageButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dealButtonClick">
+                  </a> <!-- dealButtonClick -->
+                  <span class="method-name">dealButtonClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getButtonsText">
+                  </a> <!-- getButtonsText -->
+                  <span class="method-name">getButtonsText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EcommerceApps-class-passed -->
+          <div class="suite-EcommerceApps-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.HomePageSearchValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSearchField(hs)">
+                  </a> <!-- getSearchField(hs) -->
+                  <span class="method-name">getSearchField</span>
+                  <span class="parameters">(hs)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSearchField(yf)">
+                  </a> <!-- getSearchField(yf) -->
+                  <span class="method-name">getSearchField</span>
+                  <span class="parameters">(yf)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSearchField(ol)">
+                  </a> <!-- getSearchField(ol) -->
+                  <span class="method-name">getSearchField</span>
+                  <span class="parameters">(ol)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSearchField(ua)">
+                  </a> <!-- getSearchField(ua) -->
+                  <span class="method-name">getSearchField</span>
+                  <span class="parameters">(ua)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSearchField(qj)">
+                  </a> <!-- getSearchField(qj) -->
+                  <span class="method-name">getSearchField</span>
+                  <span class="parameters">(qj)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EcommerceApps-class-passed -->
+          <div class="suite-EcommerceApps-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.FlightFieldsValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="activeDateCheck">
+                  </a> <!-- activeDateCheck -->
+                  <span class="method-name">activeDateCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="airportArrivalChoose">
+                  </a> <!-- airportArrivalChoose -->
+                  <span class="method-name">airportArrivalChoose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="airportDestinationChoose">
+                  </a> <!-- airportDestinationChoose -->
+                  <span class="method-name">airportDestinationChoose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="airportFromFieldClick">
+                  </a> <!-- airportFromFieldClick -->
+                  <span class="method-name">airportFromFieldClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="airportFromSearchCheck">
+                  </a> <!-- airportFromSearchCheck -->
+                  <span class="method-name">airportFromSearchCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="airportToFieldClick">
+                  </a> <!-- airportToFieldClick -->
+                  <span class="method-name">airportToFieldClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="airportToSearchCheck">
+                  </a> <!-- airportToSearchCheck -->
+                  <span class="method-name">airportToSearchCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="buttonSearchClick">
+                  </a> <!-- buttonSearchClick -->
+                  <span class="method-name">buttonSearchClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkListAirsFrom">
+                  </a> <!-- checkListAirsFrom -->
+                  <span class="method-name">checkListAirsFrom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkListAirsTo">
+                  </a> <!-- checkListAirsTo -->
+                  <span class="method-name">checkListAirsTo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chooseTravelAirline">
+                  </a> <!-- chooseTravelAirline -->
+                  <span class="method-name">chooseTravelAirline</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dateTripChoose">
+                  </a> <!-- dateTripChoose -->
+                  <span class="method-name">dateTripChoose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="languageChoose">
+                  </a> <!-- languageChoose -->
+                  <span class="method-name">languageChoose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="plusMinusDatesChoose">
+                  </a> <!-- plusMinusDatesChoose -->
+                  <span class="method-name">plusMinusDatesChoose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EcommerceApps-class-passed -->
+          <div class="suite-EcommerceApps-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.HomePageValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSuccessText">
+                  </a> <!-- checkSuccessText -->
+                  <span class="method-name">checkSuccessText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chooseCountry">
+                  </a> <!-- chooseCountry -->
+                  <span class="method-name">chooseCountry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chooseItemsToCart">
+                  </a> <!-- chooseItemsToCart -->
+                  <span class="method-name">chooseItemsToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAgreeCheckBox">
+                  </a> <!-- clickAgreeCheckBox -->
+                  <span class="method-name">clickAgreeCheckBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickGoToCartButton">
+                  </a> <!-- clickGoToCartButton -->
+                  <span class="method-name">clickGoToCartButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickProceedButton">
+                  </a> <!-- clickProceedButton -->
+                  <span class="method-name">clickProceedButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProductsNumberInCart">
+                  </a> <!-- getProductsNumberInCart -->
+                  <span class="method-name">getProductsNumberInCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="numberOfItemsValidation">
+                  </a> <!-- numberOfItemsValidation -->
+                  <span class="method-name">numberOfItemsValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pushCartButton">
+                  </a> <!-- pushCartButton -->
+                  <span class="method-name">pushCartButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setPromoCode">
+                  </a> <!-- setPromoCode -->
+                  <span class="method-name">setPromoCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="totalAmountCompare">
+                  </a> <!-- totalAmountCompare -->
+                  <span class="method-name">totalAmountCompare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EcommerceApps-class-passed -->
+        </div> <!-- panel EcommerceApps -->
+        <div panel-name="test-xml-EcommerceApps" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\user\eclipse-workspaceNewProjects\TestNGModulValidation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;EcommerceApps&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;message&quot; value=&quot;Code applied&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;testcases.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;OnlineShopAppHomePage&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.HomePageValidation&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;list.*&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.HomePageValidation --&gt;
+      &lt;class name=&quot;testcases.HomePageSearchValidation&quot;/&gt;
+      &lt;class name=&quot;testcases.TopDealsValidation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- OnlineShopAppHomePage --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;FlightPageCheck&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.FlightFieldsValidation&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;popupListener&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.FlightFieldsValidation --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FlightPageCheck --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;AmaHomePageCheck&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.HomePageAmaCheck&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AmaHomePageCheck --&gt;
+&lt;/suite&gt; &lt;!-- EcommerceApps --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-EcommerceApps" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for EcommerceApps</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">OnlineShopAppHomePage (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">FlightPageCheck (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AmaHomePageCheck (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-EcommerceApps" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for EcommerceApps</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-EcommerceApps" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for EcommerceApps</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_EcommerceApps');
+function tableData_EcommerceApps() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(40);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getAmountBrokenLinksOnPage')
+data.setCell(0, 2, 'testcases.HomePageAmaCheck')
+data.setCell(0, 3, 170501);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'chooseItemsToCart')
+data.setCell(1, 2, 'testcases.HomePageValidation')
+data.setCell(1, 3, 32583);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'setPromoCode')
+data.setCell(2, 2, 'testcases.HomePageValidation')
+data.setCell(2, 3, 24686);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'buttonSearchClick')
+data.setCell(3, 2, 'testcases.FlightFieldsValidation')
+data.setCell(3, 3, 8456);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getButtonsText')
+data.setCell(4, 2, 'testcases.TopDealsValidation')
+data.setCell(4, 3, 3025);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'dateTripChoose')
+data.setCell(5, 2, 'testcases.FlightFieldsValidation')
+data.setCell(5, 3, 2403);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getSearchField')
+data.setCell(6, 2, 'testcases.HomePageSearchValidation')
+data.setCell(6, 3, 2349);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getSearchField')
+data.setCell(7, 2, 'testcases.HomePageSearchValidation')
+data.setCell(7, 3, 1764);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getSearchField')
+data.setCell(8, 2, 'testcases.HomePageSearchValidation')
+data.setCell(8, 3, 1424);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'getSearchField')
+data.setCell(9, 2, 'testcases.HomePageSearchValidation')
+data.setCell(9, 3, 1319);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'pushCartButton')
+data.setCell(10, 2, 'testcases.HomePageValidation')
+data.setCell(10, 3, 1146);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'getSearchField')
+data.setCell(11, 2, 'testcases.HomePageSearchValidation')
+data.setCell(11, 3, 1108);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkListAirsFrom')
+data.setCell(12, 2, 'testcases.FlightFieldsValidation')
+data.setCell(12, 3, 740);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkListAirsTo')
+data.setCell(13, 2, 'testcases.FlightFieldsValidation')
+data.setCell(13, 3, 633);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'clickPageButton')
+data.setCell(14, 2, 'testcases.TopDealsValidation')
+data.setCell(14, 3, 424);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'dealButtonClick')
+data.setCell(15, 2, 'testcases.TopDealsValidation')
+data.setCell(15, 3, 354);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'chooseCountry')
+data.setCell(16, 2, 'testcases.HomePageValidation')
+data.setCell(16, 3, 278);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'getProductsNumberInCart')
+data.setCell(17, 2, 'testcases.HomePageValidation')
+data.setCell(17, 3, 253);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'activeDateCheck')
+data.setCell(18, 2, 'testcases.FlightFieldsValidation')
+data.setCell(18, 3, 238);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'checkOrderItemsAfterArrowClick')
+data.setCell(19, 2, 'testcases.TopDealsValidation')
+data.setCell(19, 3, 180);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkOrderOfItemsByDefault')
+data.setCell(20, 2, 'testcases.TopDealsValidation')
+data.setCell(20, 3, 170);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'plusMinusDatesChoose')
+data.setCell(21, 2, 'testcases.FlightFieldsValidation')
+data.setCell(21, 3, 144);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'totalAmountCompare')
+data.setCell(22, 2, 'testcases.HomePageValidation')
+data.setCell(22, 3, 133);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'checkNumberItemsInTable')
+data.setCell(23, 2, 'testcases.TopDealsValidation')
+data.setCell(23, 3, 123);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'airportFromFieldClick')
+data.setCell(24, 2, 'testcases.FlightFieldsValidation')
+data.setCell(24, 3, 109);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'languageChoose')
+data.setCell(25, 2, 'testcases.FlightFieldsValidation')
+data.setCell(25, 3, 109);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'chooseTravelAirline')
+data.setCell(26, 2, 'testcases.FlightFieldsValidation')
+data.setCell(26, 3, 107);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'checkNumberItemsDefaultOnPage')
+data.setCell(27, 2, 'testcases.TopDealsValidation')
+data.setCell(27, 3, 106);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'checkDisableDefaultsFirstButton')
+data.setCell(28, 2, 'testcases.TopDealsValidation')
+data.setCell(28, 3, 102);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'airportArrivalChoose')
+data.setCell(29, 2, 'testcases.FlightFieldsValidation')
+data.setCell(29, 3, 95);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'airportToFieldClick')
+data.setCell(30, 2, 'testcases.FlightFieldsValidation')
+data.setCell(30, 3, 84);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'clickGoToCartButton')
+data.setCell(31, 2, 'testcases.HomePageValidation')
+data.setCell(31, 3, 79);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'airportDestinationChoose')
+data.setCell(32, 2, 'testcases.FlightFieldsValidation')
+data.setCell(32, 3, 70);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'airportFromSearchCheck')
+data.setCell(33, 2, 'testcases.FlightFieldsValidation')
+data.setCell(33, 3, 69);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'clickAgreeCheckBox')
+data.setCell(34, 2, 'testcases.HomePageValidation')
+data.setCell(34, 3, 60);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'clickProceedButton')
+data.setCell(35, 2, 'testcases.HomePageValidation')
+data.setCell(35, 3, 58);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'airportToSearchCheck')
+data.setCell(36, 2, 'testcases.FlightFieldsValidation')
+data.setCell(36, 3, 54);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'numberOfItemsValidation')
+data.setCell(37, 2, 'testcases.HomePageValidation')
+data.setCell(37, 3, 51);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'checkEnableButtons')
+data.setCell(38, 2, 'testcases.TopDealsValidation')
+data.setCell(38, 3, 20);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'checkSuccessText')
+data.setCell(39, 2, 'testcases.HomePageValidation')
+data.setCell(39, 3, 1);
+window.suiteTableData['EcommerceApps']= { tableData: data, tableDiv: 'times-div-EcommerceApps'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-EcommerceApps">
+              </div> <!-- times-div-EcommerceApps -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-EcommerceApps" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for EcommerceApps</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-EcommerceApps" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.HomePageValidation</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">listOfProductsValidation</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-EcommerceApps" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.HomePageSearchValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initilize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.FlightFieldsValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initilize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.HomePageAmaCheck</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initilize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">4475 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getAmountBrokenLinksOnPage</span>
+                <span class="method-start">4479 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TopDealsValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initilize</span>
+                <span class="method-start">7329 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.HomePageValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initilize</span>
+                <span class="method-start">7329 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.HomePageSearchValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">7339 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getSearchField(hs)</span>
+                <span class="method-start">7344 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">9707 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getSearchField(yf)</span>
+                <span class="method-start">9708 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">11135 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getSearchField(ol)</span>
+                <span class="method-start">11136 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">12901 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getSearchField(qj)</span>
+                <span class="method-start">12903 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">14222 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getSearchField(ua)</span>
+                <span class="method-start">14223 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TopDealsValidation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">dealButtonClick</span>
+                <span class="method-start">15267 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">15267 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.HomePageValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">15306 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">numberOfItemsValidation</span>
+                <span class="method-start">15307 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.HomePageSearchValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">windowClose</span>
+                <span class="method-start">15332 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.HomePageValidation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">chooseItemsToCart</span>
+                <span class="method-start">15359 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">15359 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TopDealsValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">15626 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickPageButton</span>
+                <span class="method-start">15627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">16053 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkDisableDefaultsFirstButton</span>
+                <span class="method-start">16054 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">16157 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkNumberItemsDefaultOnPage</span>
+                <span class="method-start">16158 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkNumberItemsInTable</span>
+                <span class="method-start">16264 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">16264 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">16389 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkOrderOfItemsByDefault</span>
+                <span class="method-start">16389 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">16560 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkOrderItemsAfterArrowClick</span>
+                <span class="method-start">16561 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">16742 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkEnableButtons</span>
+                <span class="method-start">16743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">16764 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getButtonsText</span>
+                <span class="method-start">16764 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.FlightFieldsValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">17187 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">airportFromFieldClick</span>
+                <span class="method-start">17189 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">airportFromSearchCheck</span>
+                <span class="method-start">17299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">17299 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">17369 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkListAirsFrom</span>
+                <span class="method-start">17370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">18111 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">airportArrivalChoose</span>
+                <span class="method-start">18111 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">airportToFieldClick</span>
+                <span class="method-start">18206 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">18206 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">18291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">airportToSearchCheck</span>
+                <span class="method-start">18291 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkListAirsTo</span>
+                <span class="method-start">18346 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">18346 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">18980 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">airportDestinationChoose</span>
+                <span class="method-start">18980 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">19050 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">activeDateCheck</span>
+                <span class="method-start">19051 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dateTripChoose</span>
+                <span class="method-start">19290 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">19290 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TopDealsValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">windowClose</span>
+                <span class="method-start">19789 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.FlightFieldsValidation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">plusMinusDatesChoose</span>
+                <span class="method-start">21693 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">21693 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">21838 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">languageChoose</span>
+                <span class="method-start">21838 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chooseTravelAirline</span>
+                <span class="method-start">21947 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">21947 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">buttonSearchClick</span>
+                <span class="method-start">22055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">22055 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">30511 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.HomePageValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">47944 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickGoToCartButton</span>
+                <span class="method-start">47945 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getProductsNumberInCart</span>
+                <span class="method-start">48025 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">48025 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">48278 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">pushCartButton</span>
+                <span class="method-start">48279 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">49426 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">totalAmountCompare</span>
+                <span class="method-start">49426 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">49559 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">setPromoCode</span>
+                <span class="method-start">49560 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chooseCountry</span>
+                <span class="method-start">74247 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">74247 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">74525 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickAgreeCheckBox</span>
+                <span class="method-start">74526 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">74586 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickProceedButton</span>
+                <span class="method-start">74587 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">getPageInstance</span>
+                <span class="method-start">74645 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSuccessText</span>
+                <span class="method-start">74645 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">windowClose</span>
+                <span class="method-start">74646 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.HomePageAmaCheck</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">175679 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

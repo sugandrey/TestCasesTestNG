@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EcommerceApps]" guice-stage="DEVELOPMENT">
+  <parameter name="message" value="Code applied"/>
+  <test thread-count="5" parallel="tests" name="OnlineShopApp(failed)">
+    <classes>
+      <class name="testcases.HomePageSearchValidation">
+        <methods>
+          <include name="getPageInstance"/>
+          <include name="getSearchField" invocation-numbers="4"/>
+          <include name="initilize"/>
+          <include name="windowClose"/>
+        </methods>
+      </class> <!-- testcases.HomePageSearchValidation -->
+      <class name="testcases.HomePageValidation">
+        <methods>
+          <include name="getPageInstance"/>
+          <include name="chooseItemsToCart"/>
+          <include name="windowClose"/>
+          <include name="initilize"/>
+        </methods>
+      </class> <!-- testcases.HomePageValidation -->
+    </classes>
+  </test> <!-- OnlineShopApp(failed) -->
+</suite> <!-- Failed suite [EcommerceApps] -->

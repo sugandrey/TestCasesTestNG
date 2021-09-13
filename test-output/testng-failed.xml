@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testcases.HomePageValidation">
+        <methods>
+          <include name="listOfProductsValidation"/>
+          <include name="getPageInstance"/>
+          <include name="chooseItemsToCart"/>
+          <include name="windowClose"/>
+          <include name="clickGoToCartButton"/>
+          <include name="clickAgreeCheckBox"/>
+          <include name="clickProceedButton"/>
+          <include name="setPromoCode"/>
+          <include name="checkSuccessText"/>
+          <include name="chooseCountry"/>
+          <include name="getProductsNumberInCart"/>
+          <include name="totalAmountCompare"/>
+          <include name="pushCartButton"/>
+          <include name="numberOfItemsValidation"/>
+          <include name="initilize"/>
+        </methods>
+      </class> <!-- testcases.HomePageValidation -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

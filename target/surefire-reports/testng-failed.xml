@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [EcommerceApps]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="message" value="Code applied"/>
+  <listeners>
+    <listener class-name="testcases.Listeners"/>
+  </listeners>
+  <test thread-count="3" parallel="tests" name="AmaHomePageCheck(failed)" verbose="0">
+    <classes>
+      <class name="testcases.HomePageAmaCheck">
+        <methods>
+          <include name="getAmountBrokenLinksOnPage"/>
+          <include name="initilize"/>
+          <include name="getPageInstance"/>
+          <include name="driverClose"/>
+        </methods>
+      </class> <!-- testcases.HomePageAmaCheck -->
+    </classes>
+  </test> <!-- AmaHomePageCheck(failed) -->
+</suite> <!-- Failed suite [EcommerceApps] -->

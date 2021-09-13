@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="41" passed="39" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-02T22:03:06 EDT" name="EcommerceApps" finished-at="2021-06-02T22:06:06 EDT" duration-ms="179856">
+    <groups>
+    </groups>
+    <test started-at="2021-06-02T22:03:06 EDT" name="FlightPageCheck" finished-at="2021-06-02T22:03:36 EDT" duration-ms="30702">
+      <class name="testcases.FlightFieldsValidation">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:06 EDT" name="initilize" finished-at="2021-06-02T22:03:23 EDT" duration-ms="17185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:23 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:23 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="airportFromFieldClick()[pri:0, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:23 EDT" name="airportFromFieldClick" finished-at="2021-06-02T22:03:23 EDT" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- airportFromFieldClick -->
+        <test-method signature="airportFromSearchCheck()[pri:1, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:23 EDT" name="airportFromSearchCheck" finished-at="2021-06-02T22:03:23 EDT" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- airportFromSearchCheck -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:23 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:23 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:23 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:23 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="checkListAirsFrom()[pri:2, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:23 EDT" name="checkListAirsFrom" finished-at="2021-06-02T22:03:24 EDT" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkListAirsFrom -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:24 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:24 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="airportArrivalChoose()[pri:3, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:24 EDT" name="airportArrivalChoose" finished-at="2021-06-02T22:03:24 EDT" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- airportArrivalChoose -->
+        <test-method signature="airportToFieldClick()[pri:4, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:24 EDT" name="airportToFieldClick" finished-at="2021-06-02T22:03:24 EDT" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- airportToFieldClick -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:24 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:24 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:24 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:24 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="airportToSearchCheck()[pri:5, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:24 EDT" name="airportToSearchCheck" finished-at="2021-06-02T22:03:24 EDT" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- airportToSearchCheck -->
+        <test-method signature="checkListAirsTo()[pri:6, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:24 EDT" name="checkListAirsTo" finished-at="2021-06-02T22:03:25 EDT" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkListAirsTo -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:24 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:24 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:25 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:25 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="airportDestinationChoose()[pri:7, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:25 EDT" name="airportDestinationChoose" finished-at="2021-06-02T22:03:25 EDT" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- airportDestinationChoose -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:25 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:25 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="activeDateCheck()[pri:8, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:25 EDT" name="activeDateCheck" finished-at="2021-06-02T22:03:25 EDT" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activeDateCheck -->
+        <test-method signature="dateTripChoose()[pri:9, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:25 EDT" name="dateTripChoose" finished-at="2021-06-02T22:03:27 EDT" duration-ms="2403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateTripChoose -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:25 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:25 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="plusMinusDatesChoose()[pri:9, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:27 EDT" name="plusMinusDatesChoose" finished-at="2021-06-02T22:03:28 EDT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plusMinusDatesChoose -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:27 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:27 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:28 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:28 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="languageChoose()[pri:10, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:28 EDT" name="languageChoose" finished-at="2021-06-02T22:03:28 EDT" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageChoose -->
+        <test-method signature="chooseTravelAirline()[pri:11, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:28 EDT" name="chooseTravelAirline" finished-at="2021-06-02T22:03:28 EDT" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseTravelAirline -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:28 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:28 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="buttonSearchClick()[pri:12, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:28 EDT" name="buttonSearchClick" finished-at="2021-06-02T22:03:36 EDT" duration-ms="8456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buttonSearchClick -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:28 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:28 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:testcases.FlightFieldsValidation@160c3ec1]" started-at="2021-06-02T22:03:36 EDT" name="driverClose" finished-at="2021-06-02T22:03:36 EDT" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- testcases.FlightFieldsValidation -->
+    </test> <!-- FlightPageCheck -->
+    <test started-at="2021-06-02T22:03:06 EDT" name="OnlineShopAppHomePage" finished-at="2021-06-02T22:04:20 EDT" duration-ms="74705">
+      <class name="testcases.HomePageValidation">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:03:13 EDT" name="initilize" finished-at="2021-06-02T22:03:21 EDT" duration-ms="7977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:03:21 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:21 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="numberOfItemsValidation()[pri:0, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:03:21 EDT" name="numberOfItemsValidation" finished-at="2021-06-02T22:03:21 EDT" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberOfItemsValidation -->
+        <test-method signature="chooseItemsToCart()[pri:2, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:03:21 EDT" name="chooseItemsToCart" finished-at="2021-06-02T22:03:54 EDT" duration-ms="32583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseItemsToCart -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:03:21 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:21 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:03:54 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:54 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="clickGoToCartButton()[pri:3, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:03:54 EDT" name="clickGoToCartButton" finished-at="2021-06-02T22:03:54 EDT" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGoToCartButton -->
+        <test-method signature="getProductsNumberInCart()[pri:4, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:03:54 EDT" name="getProductsNumberInCart" finished-at="2021-06-02T22:03:54 EDT" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductsNumberInCart -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:03:54 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:54 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:03:54 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:54 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="pushCartButton()[pri:5, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:03:54 EDT" name="pushCartButton" finished-at="2021-06-02T22:03:55 EDT" duration-ms="1146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pushCartButton -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:03:55 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:55 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="totalAmountCompare()[pri:6, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:03:55 EDT" name="totalAmountCompare" finished-at="2021-06-02T22:03:55 EDT" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalAmountCompare -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:03:55 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:55 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="setPromoCode()[pri:7, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:03:55 EDT" name="setPromoCode" finished-at="2021-06-02T22:04:20 EDT" duration-ms="24686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPromoCode -->
+        <test-method signature="chooseCountry()[pri:8, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:04:20 EDT" name="chooseCountry" finished-at="2021-06-02T22:04:20 EDT" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseCountry -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:04:20 EDT" name="getPageInstance" finished-at="2021-06-02T22:04:20 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:04:20 EDT" name="getPageInstance" finished-at="2021-06-02T22:04:20 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="clickAgreeCheckBox()[pri:9, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:04:20 EDT" name="clickAgreeCheckBox" finished-at="2021-06-02T22:04:20 EDT" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAgreeCheckBox -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:04:20 EDT" name="getPageInstance" finished-at="2021-06-02T22:04:20 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="clickProceedButton()[pri:10, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:04:20 EDT" name="clickProceedButton" finished-at="2021-06-02T22:04:20 EDT" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProceedButton -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:04:20 EDT" name="getPageInstance" finished-at="2021-06-02T22:04:20 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="checkSuccessText()[pri:11, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:04:20 EDT" name="checkSuccessText" finished-at="2021-06-02T22:04:20 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuccessText -->
+        <test-method is-config="true" signature="windowClose()[pri:0, instance:testcases.HomePageValidation@3dddbe65]" started-at="2021-06-02T22:04:20 EDT" name="windowClose" finished-at="2021-06-02T22:04:20 EDT" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowClose -->
+      </class> <!-- testcases.HomePageValidation -->
+      <class name="testcases.HomePageSearchValidation">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:testcases.HomePageSearchValidation@77b21474]" started-at="2021-06-02T22:03:06 EDT" name="initilize" finished-at="2021-06-02T22:03:13 EDT" duration-ms="7291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.HomePageSearchValidation@77b21474]" started-at="2021-06-02T22:03:13 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:13 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="getSearchField(java.lang.String)[pri:0, instance:testcases.HomePageSearchValidation@77b21474]" started-at="2021-06-02T22:03:13 EDT" name="getSearchField" data-provider="getString" finished-at="2021-06-02T22:03:15 EDT" duration-ms="2349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSearchField -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.HomePageSearchValidation@77b21474]" started-at="2021-06-02T22:03:15 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:16 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="getSearchField(java.lang.String)[pri:0, instance:testcases.HomePageSearchValidation@77b21474]" started-at="2021-06-02T22:03:16 EDT" name="getSearchField" data-provider="getString" finished-at="2021-06-02T22:03:17 EDT" duration-ms="1424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSearchField -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.HomePageSearchValidation@77b21474]" started-at="2021-06-02T22:03:17 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="getSearchField(java.lang.String)[pri:0, instance:testcases.HomePageSearchValidation@77b21474]" started-at="2021-06-02T22:03:17 EDT" name="getSearchField" data-provider="getString" finished-at="2021-06-02T22:03:19 EDT" duration-ms="1764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ol]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSearchField -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.HomePageSearchValidation@77b21474]" started-at="2021-06-02T22:03:19 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:19 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="getSearchField(java.lang.String)[pri:0, instance:testcases.HomePageSearchValidation@77b21474]" started-at="2021-06-02T22:03:19 EDT" name="getSearchField" data-provider="getString" finished-at="2021-06-02T22:03:20 EDT" duration-ms="1319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSearchField -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.HomePageSearchValidation@77b21474]" started-at="2021-06-02T22:03:20 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:20 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="getSearchField(java.lang.String)[pri:0, instance:testcases.HomePageSearchValidation@77b21474]" started-at="2021-06-02T22:03:20 EDT" name="getSearchField" data-provider="getString" finished-at="2021-06-02T22:03:21 EDT" duration-ms="1108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ua]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSearchField -->
+        <test-method is-config="true" signature="windowClose()[pri:0, instance:testcases.HomePageSearchValidation@77b21474]" started-at="2021-06-02T22:03:21 EDT" name="windowClose" finished-at="2021-06-02T22:03:21 EDT" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowClose -->
+      </class> <!-- testcases.HomePageSearchValidation -->
+      <class name="testcases.TopDealsValidation">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:testcases.TopDealsValidation@52d10fb8]" started-at="2021-06-02T22:03:13 EDT" name="initilize" finished-at="2021-06-02T22:03:21 EDT" duration-ms="7937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="dealButtonClick()[pri:0, instance:testcases.TopDealsValidation@52d10fb8]" started-at="2021-06-02T22:03:21 EDT" name="dealButtonClick" finished-at="2021-06-02T22:03:21 EDT" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dealButtonClick -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.TopDealsValidation@52d10fb8]" started-at="2021-06-02T22:03:21 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:21 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.TopDealsValidation@52d10fb8]" started-at="2021-06-02T22:03:21 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:21 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="clickPageButton()[pri:1, instance:testcases.TopDealsValidation@52d10fb8]" started-at="2021-06-02T22:03:21 EDT" name="clickPageButton" finished-at="2021-06-02T22:03:22 EDT" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPageButton -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.TopDealsValidation@52d10fb8]" started-at="2021-06-02T22:03:22 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:22 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="checkDisableDefaultsFirstButton()[pri:2, instance:testcases.TopDealsValidation@52d10fb8]" started-at="2021-06-02T22:03:22 EDT" name="checkDisableDefaultsFirstButton" finished-at="2021-06-02T22:03:22 EDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDisableDefaultsFirstButton -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.TopDealsValidation@52d10fb8]" started-at="2021-06-02T22:03:22 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:22 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="checkNumberItemsDefaultOnPage()[pri:3, instance:testcases.TopDealsValidation@52d10fb8]" started-at="2021-06-02T22:03:22 EDT" name="checkNumberItemsDefaultOnPage" finished-at="2021-06-02T22:03:22 EDT" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNumberItemsDefaultOnPage -->
+        <test-method signature="checkNumberItemsInTable()[pri:4, instance:testcases.TopDealsValidation@52d10fb8]" started-at="2021-06-02T22:03:22 EDT" name="checkNumberItemsInTable" finished-at="2021-06-02T22:03:22 EDT" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNumberItemsInTable -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.TopDealsValidation@52d10fb8]" started-at="2021-06-02T22:03:22 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:22 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.TopDealsValidation@52d10fb8]" started-at="2021-06-02T22:03:22 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:22 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="checkOrderOfItemsByDefault()[pri:5, instance:testcases.TopDealsValidation@52d10fb8]" started-at="2021-06-02T22:03:22 EDT" name="checkOrderOfItemsByDefault" finished-at="2021-06-02T22:03:22 EDT" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOrderOfItemsByDefault -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.TopDealsValidation@52d10fb8]" started-at="2021-06-02T22:03:22 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:22 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="checkOrderItemsAfterArrowClick()[pri:6, instance:testcases.TopDealsValidation@52d10fb8]" started-at="2021-06-02T22:03:22 EDT" name="checkOrderItemsAfterArrowClick" finished-at="2021-06-02T22:03:23 EDT" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOrderItemsAfterArrowClick -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.TopDealsValidation@52d10fb8]" started-at="2021-06-02T22:03:23 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:23 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="checkEnableButtons()[pri:7, instance:testcases.TopDealsValidation@52d10fb8]" started-at="2021-06-02T22:03:23 EDT" name="checkEnableButtons" finished-at="2021-06-02T22:03:23 EDT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEnableButtons -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.TopDealsValidation@52d10fb8]" started-at="2021-06-02T22:03:23 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:23 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="getButtonsText()[pri:8, instance:testcases.TopDealsValidation@52d10fb8]" started-at="2021-06-02T22:03:23 EDT" name="getButtonsText" finished-at="2021-06-02T22:03:26 EDT" duration-ms="3025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getButtonsText -->
+        <test-method is-config="true" signature="windowClose()[pri:0, instance:testcases.TopDealsValidation@52d10fb8]" started-at="2021-06-02T22:03:26 EDT" name="windowClose" finished-at="2021-06-02T22:03:26 EDT" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowClose -->
+      </class> <!-- testcases.TopDealsValidation -->
+    </test> <!-- OnlineShopAppHomePage -->
+    <test started-at="2021-06-02T22:03:06 EDT" name="AmaHomePageCheck" finished-at="2021-06-02T22:06:06 EDT" duration-ms="179856">
+      <class name="testcases.HomePageAmaCheck">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:testcases.HomePageAmaCheck@60afd40d]" started-at="2021-06-02T22:03:06 EDT" name="initilize" finished-at="2021-06-02T22:03:10 EDT" duration-ms="4429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method is-config="true" signature="getPageInstance()[pri:0, instance:testcases.HomePageAmaCheck@60afd40d]" started-at="2021-06-02T22:03:10 EDT" name="getPageInstance" finished-at="2021-06-02T22:03:10 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageInstance -->
+        <test-method signature="getAmountBrokenLinksOnPage()[pri:0, instance:testcases.HomePageAmaCheck@60afd40d]" started-at="2021-06-02T22:03:10 EDT" name="getAmountBrokenLinksOnPage" finished-at="2021-06-02T22:06:01 EDT" duration-ms="170501" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+503 -:- https://www.amazon.ca/gp/registry/wishlist?triggerElementID=createList&ref_=nav_ListFlyout_gno_createwl expected [true] but found [false],
+403 -:- https://www.amazon.ca/gp/css/homepage.html?ref_=nav_AccountFlyout_ya expected [true] but found [false],
+403 -:- https://www.amazon.ca/business/register/org/landing?ref_=nav_AccountFlyout_b2b_reg expected [true] but found [false],
+503 -:- https://www.amazon.ca/Best-Sellers-generic/zgbs/?ref_=nav_cs_bestsellers_5e07a0361d744326ae799da4b354adca expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/help/customer/display.html?ref_=nav_cs_help_80966742f8c54e26897f6ff675864430 expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=2206275011&ref_=nav_cs_home_e30810812540476da315f95f4c1cba0c expected [true] but found [false],
+503 -:- https://www.amazon.ca/b/?node=12218500011&ref_=nav_cs_coupons_5c0b5095bded47dc9dbbe58103090fe1 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Health-Personal-Care/b/?ie=UTF8&node=6205177011&ref_=nav_cs_hpc_389588d101974a76b1f2a1aec6148be2 expected [true] but found [false],
+503 -:- https://www.amazon.ca/video-games-hardware-accessories/b/?ie=UTF8&node=3198031&ref_=nav_cs_video_games_96df7f31fc134377b70784ea57f4ff5c expected [true] but found [false],
+503 -:- https://www.amazon.ca/automotive/b/?ie=UTF8&node=6948389011&ref_=nav_cs_automotive_df4975bd27a649d59f0a0f346158957a expected [true] but found [false],
+503 -:- https://www.amazon.ca/grocery/b/?ie=UTF8&node=6967215011&ref_=nav_cs_grocery_96a59c746dd945d6a7d9911411f06a1b expected [true] but found [false],
+503 -:- https://www.amazon.ca/Beauty/b/?ie=UTF8&node=6205124011&ref_=nav_cs_beauty_46f9bd5d21484218b9b15a4779dcd14a expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=2972705011&ref_=nav_cs_kindle_books_30c4ac32cf754895b19193fffbb9870c expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=19700946011&ref_=nav_cs_registry_e33c68e88c844208a181299c83810267 expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=17386909011&ref_=ods_gw_evg_gwd_btf_smp_quad2_en_06011 expected [true] but found [false],
+503 -:- https://www.amazon.ca/stores/page/41142C83-E6F1-4111-9920-256E042CFC98 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Crate-61-essential-lemongrass-grapefruit/dp/B07CL4G9CF/?_encoding=UTF8&pd_rd_w=2lUnZ&pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_trq_ed expected [true] but found [false],
+503 -:- https://www.amazon.ca/Rose-Leven-Moroccan-Rosewater-Hydrosol/dp/B016LC861A/?_encoding=UTF8&pd_rd_w=2lUnZ&pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_trq_ed expected [true] but found [false],
+503 -:- https://www.amazon.ca/Teals-lavender-epsom-salts-kilogram/dp/B071YLD8J6/?_encoding=UTF8&pd_rd_w=2lUnZ&pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_trq_ed expected [true] but found [false],
+503 -:- https://www.amazon.ca/Oral-B-Sensitive-Replacement-Electric-Toothbrush/dp/B00006ANDK/?_encoding=UTF8&pd_rd_w=2lUnZ&pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_trq_ed expected [true] but found [false],
+503 -:- https://www.amazon.ca/CeraVe-Moisturizing-Lightweight-Moisturizer-Milliliters/dp/B083GG19DS/?_encoding=UTF8&pd_rd_w=2lUnZ&pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_trq_ed expected [true] but found [false],
+503 -:- https://www.amazon.ca/Nintendo-Switch-Neon-Blue-Joy%E2%80%91/dp/B07VGRJDFY/?_encoding=UTF8&pd_rd_w=Es9bG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Elgato-Game-Capture-HD60-technology/dp/B01DRWCOGA/?_encoding=UTF8&pd_rd_w=Es9bG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Legend-Zelda-Breath-Wild-Switch/dp/B01N33O68B/?_encoding=UTF8&pd_rd_w=Es9bG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Nintendo-HCCPADFJA-Super-Mario-Party/dp/B07DQ7KC8Q/?_encoding=UTF8&pd_rd_w=Es9bG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+503 -:- https://www.amazon.ca/SanDisk-MicroSDXC-Nintendo-Switch-SDSQXAO-128G-GNCZN/dp/B07KXQX3S3/?_encoding=UTF8&pd_rd_w=Es9bG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+503 -:- https://www.amazon.ca/PULSE-3D-Wireless-Headset-Pulse/dp/B08GSBRR9Q/?_encoding=UTF8&pd_rd_w=Es9bG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Hammermill-Bright-Letter-Sheets-113620/dp/B06XRMJPJC/?_encoding=UTF8&pd_rd_w=E0oIT&pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_trq_ed expected [true] but found [false],
+503 -:- https://www.amazon.ca/HP-Tri-Color-Original-Cartridges-N9H63FN/dp/B015IZ1E7E/?_encoding=UTF8&pd_rd_w=E0oIT&pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_trq_ed expected [true] but found [false],
+503 -:- https://www.amazon.ca/Public-Mobile-Card-Unlocked-Phones/dp/B07R6P5KBB/?_encoding=UTF8&pd_rd_w=E0oIT&pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_trq_ed expected [true] but found [false],
+503 -:- https://www.amazon.ca/First-100-Words-Roger-Priddy/dp/0312510780/?_encoding=UTF8&pd_rd_w=yNENG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Atlas-Six-Olivie-Blake/dp/167991099X/?_encoding=UTF8&pd_rd_w=yNENG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Five-Little-Indians-Michelle-Good/dp/1443459186/?_encoding=UTF8&pd_rd_w=yNENG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Atomic-Habits-Proven-Build-Break/dp/0735211299/?_encoding=UTF8&pd_rd_w=yNENG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Malibu-Rising-Taylor-Jenkins-Reid/dp/038569220X/?_encoding=UTF8&pd_rd_w=yNENG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Blood-Ash-Jennifer-L-Armentrout/dp/1952457009/?_encoding=UTF8&pd_rd_w=yNENG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Your-Babys-First-Word-Will/dp/125007181X/?_encoding=UTF8&pd_rd_w=yNENG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Goodnight-Moon-Board-Margaret-Brown/dp/0694003611/?_encoding=UTF8&pd_rd_w=yNENG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Its-OK-Different-Childrens-Diversity/dp/0973410450/?_encoding=UTF8&pd_rd_w=yNENG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Mkicesky-Sleeping-Orthopedic-Ergonomic-Pillowcase/dp/B08FJ9737F/ref=br_msw_pdt-1/146-9613179-8350611?_encoding=UTF8&smid=A2LZE0AJFZI27V&pf_rd_m=A3DWYIK6Y9EEQB&pf_rd_s=&pf_rd_r=20WSD1GPYE79B706TWPQ&pf_rd_t=36701&pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&pf_rd_i=desktop expected [true] but found [false],
+503 -:- https://www.amazon.ca/BOGI-Microfiber-Travel-Sports-Compact/dp/B077VQKR9Y/ref=br_msw_pdt-2/146-9613179-8350611?_encoding=UTF8&smid=A3D24YATG4ZDQZ&pf_rd_m=A3DWYIK6Y9EEQB&pf_rd_s=&pf_rd_r=20WSD1GPYE79B706TWPQ&pf_rd_t=36701&pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&pf_rd_i=desktop expected [true] but found [false],
+503 -:- https://www.amazon.ca/Premiere-Collection-Comfort-Difference-Charcoal/dp/B07DG3PMWK/ref=br_msw_pdt-4/146-9613179-8350611?_encoding=UTF8&smid=ALSACIQQS2IQL&pf_rd_m=A3DWYIK6Y9EEQB&pf_rd_s=&pf_rd_r=20WSD1GPYE79B706TWPQ&pf_rd_t=36701&pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&pf_rd_i=desktop expected [true] but found [false],
+503 -:- https://www.amazon.ca/BESTOPE-Synthetic-Foundation-Blending-Concealers/dp/B07BMRVSFS/ref=br_msw_pdt-6/146-9613179-8350611?_encoding=UTF8&smid=A3T1UHEPNW0KQ8&pf_rd_m=A3DWYIK6Y9EEQB&pf_rd_s=&pf_rd_r=20WSD1GPYE79B706TWPQ&pf_rd_t=36701&pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&pf_rd_i=desktop expected [true] but found [false],
+503 -:- https://www.amazon.ca/RELLECIGA-Womens-Purple-Waisted-Swimwear/dp/B0811LSGYB/ref=br_msw_pdt-10/146-9613179-8350611?_encoding=UTF8&smid=A1Z8HJXEZSSA0O&pf_rd_m=A3DWYIK6Y9EEQB&pf_rd_s=&pf_rd_r=20WSD1GPYE79B706TWPQ&pf_rd_t=36701&pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&pf_rd_i=desktop expected [true] but found [false],
+503 -:- https://www.amazon.ca/Cadrim-Clothes-Steamer-Portable-Handheld/dp/B083SCZ7K7/ref=br_msw_pdt-11/146-9613179-8350611?_encoding=UTF8&smid=A3QWIRA3CQ13JS&pf_rd_m=A3DWYIK6Y9EEQB&pf_rd_s=&pf_rd_r=20WSD1GPYE79B706TWPQ&pf_rd_t=36701&pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&pf_rd_i=desktop expected [true] but found [false],
+503 -:- https://www.amazon.ca/Treatment-Promote-Stretch-C-Sections-Surgical/dp/B08Q2Y1S6L/ref=br_msw_pdt-12/146-9613179-8350611?_encoding=UTF8&smid=A2LBT1C022LJC3&pf_rd_m=A3DWYIK6Y9EEQB&pf_rd_s=&pf_rd_r=20WSD1GPYE79B706TWPQ&pf_rd_t=36701&pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&pf_rd_i=desktop expected [true] but found [false],
+503 -:- https://www.amazon.ca/MLANM-Sleeve-Casual-Slim-fit-Cotton/dp/B08S6XWGTX/ref=br_msw_pdt-14/146-9613179-8350611?_encoding=UTF8&smid=AP2P9RKFCKBNN&pf_rd_m=A3DWYIK6Y9EEQB&pf_rd_s=&pf_rd_r=20WSD1GPYE79B706TWPQ&pf_rd_t=36701&pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&pf_rd_i=desktop expected [true] but found [false],
+503 -:- https://www.amazon.ca/CeraVe-Hydrating-Cleanser-Sensitive-Fragrance-Free/dp/B0843XGN3H/?_encoding=UTF8&pd_rd_w=WAhKX&pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_6205124011 expected [true] but found [false],
+503 -:- https://www.amazon.ca/MelodySusie-Portable-Electric-Nail-Drill/dp/B01H05EDK0/?_encoding=UTF8&pd_rd_w=WAhKX&pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_6205124011 expected [true] but found [false],
+503 -:- https://www.amazon.ca/THINKA-PROCEDURE-MASK-EARLOOPS-50pcs/dp/B08K4J9755/?_encoding=UTF8&pd_rd_w=WAhKX&pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_6205124011 expected [true] but found [false],
+503 -:- https://www.amazon.ca/b?node=18265355011 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Brightening-Hyaluronic-Fragrance-Dermatologist-Recommended/dp/B07Q4PY2DQ/ expected [true] but found [false],
+503 -:- https://www.amazon.ca/BABOR-CLEANSING-Rose-Toning-Essence/dp/B074KJ5KZS/ expected [true] but found [false],
+503 -:- https://www.amazon.ca/Mario-Badescu-Glycolic-Acid-Toner/dp/B000PHZ7HO/ expected [true] but found [false],
+503 -:- https://www.amazon.ca/b/?&node=2618860011&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Tomb-Raider-Bilingual-Blu-Ray-Digital/dp/B07BZBCWV8/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/Panther-Blu-ray-Bilingual-Chadwick-Boseman/dp/B079FLP3R2/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/Star-Wars-Episode-Blu-ray-Bilingual/dp/B0788FL36D/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/Wonder-Woman-Blu-ray-Chris-Wright/dp/B071LSNTVC/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/Spider-Man-Homecoming-Bilingual-Tom-Holland/dp/B073S1R6KJ/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/Rise-Planet-Apes-Bilingual-Blu-ray/dp/B00JF5G8V6/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/X-Men-Ultimate-Blu-ray-Digital-Bilingual/dp/B00KI2FYC4/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/Titanic-Blu-ray-Digital-Sous-titres-fran%C3%A7ais/dp/B007UPWIZ8/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/John-Wick-Chapter-Blu-ray-Bilingual/dp/B06ZZ5RMNH/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/Guardians-Galaxy-Blu-ray-Digital-Bilingual/dp/B06ZXWR8C5/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/Deadpool-Blu-ray-Digital-Copy-Bilingual/dp/B01BT0BFSU/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/dp/B07MJM4F44?plattr=CACBCCFOOT&ref_=nav_cbcc_ca_footer expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=21371066011&ref_=footer_swp expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/gc/create?ref_=footer_reload_ca expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=8438004011&ref_=footer_tfx_ca_en expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=9230166011&ref_=footer_gift_cards_ca_en expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=17321486011&ref_=footer_cash_ca_en expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/css/returns/homepage.html?ref_=footer_hy_f_4 expected [true] but found [false],
+503 -:- https://www.amazon.ca/?ref_=footer_logo expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=16055944011&ref_=_gno_p_foot expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=8929975011&ref_=footer_warehouse_deals expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=17351028011&ref_=footer_carenew expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/help/customer/display.html?nodeId=202146130&ref_=footer_iba expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+503 -:- https://www.amazon.ca/gp/registry/wishlist?triggerElementID=createList&ref_=nav_ListFlyout_gno_createwl expected [true] but found [false],
+403 -:- https://www.amazon.ca/gp/css/homepage.html?ref_=nav_AccountFlyout_ya expected [true] but found [false],
+403 -:- https://www.amazon.ca/business/register/org/landing?ref_=nav_AccountFlyout_b2b_reg expected [true] but found [false],
+503 -:- https://www.amazon.ca/Best-Sellers-generic/zgbs/?ref_=nav_cs_bestsellers_5e07a0361d744326ae799da4b354adca expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/help/customer/display.html?ref_=nav_cs_help_80966742f8c54e26897f6ff675864430 expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=2206275011&ref_=nav_cs_home_e30810812540476da315f95f4c1cba0c expected [true] but found [false],
+503 -:- https://www.amazon.ca/b/?node=12218500011&ref_=nav_cs_coupons_5c0b5095bded47dc9dbbe58103090fe1 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Health-Personal-Care/b/?ie=UTF8&node=6205177011&ref_=nav_cs_hpc_389588d101974a76b1f2a1aec6148be2 expected [true] but found [false],
+503 -:- https://www.amazon.ca/video-games-hardware-accessories/b/?ie=UTF8&node=3198031&ref_=nav_cs_video_games_96df7f31fc134377b70784ea57f4ff5c expected [true] but found [false],
+503 -:- https://www.amazon.ca/automotive/b/?ie=UTF8&node=6948389011&ref_=nav_cs_automotive_df4975bd27a649d59f0a0f346158957a expected [true] but found [false],
+503 -:- https://www.amazon.ca/grocery/b/?ie=UTF8&node=6967215011&ref_=nav_cs_grocery_96a59c746dd945d6a7d9911411f06a1b expected [true] but found [false],
+503 -:- https://www.amazon.ca/Beauty/b/?ie=UTF8&node=6205124011&ref_=nav_cs_beauty_46f9bd5d21484218b9b15a4779dcd14a expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=2972705011&ref_=nav_cs_kindle_books_30c4ac32cf754895b19193fffbb9870c expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=19700946011&ref_=nav_cs_registry_e33c68e88c844208a181299c83810267 expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=17386909011&ref_=ods_gw_evg_gwd_btf_smp_quad2_en_06011 expected [true] but found [false],
+503 -:- https://www.amazon.ca/stores/page/41142C83-E6F1-4111-9920-256E042CFC98 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Crate-61-essential-lemongrass-grapefruit/dp/B07CL4G9CF/?_encoding=UTF8&pd_rd_w=2lUnZ&pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_trq_ed expected [true] but found [false],
+503 -:- https://www.amazon.ca/Rose-Leven-Moroccan-Rosewater-Hydrosol/dp/B016LC861A/?_encoding=UTF8&pd_rd_w=2lUnZ&pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_trq_ed expected [true] but found [false],
+503 -:- https://www.amazon.ca/Teals-lavender-epsom-salts-kilogram/dp/B071YLD8J6/?_encoding=UTF8&pd_rd_w=2lUnZ&pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_trq_ed expected [true] but found [false],
+503 -:- https://www.amazon.ca/Oral-B-Sensitive-Replacement-Electric-Toothbrush/dp/B00006ANDK/?_encoding=UTF8&pd_rd_w=2lUnZ&pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_trq_ed expected [true] but found [false],
+503 -:- https://www.amazon.ca/CeraVe-Moisturizing-Lightweight-Moisturizer-Milliliters/dp/B083GG19DS/?_encoding=UTF8&pd_rd_w=2lUnZ&pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_trq_ed expected [true] but found [false],
+503 -:- https://www.amazon.ca/Nintendo-Switch-Neon-Blue-Joy%E2%80%91/dp/B07VGRJDFY/?_encoding=UTF8&pd_rd_w=Es9bG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Elgato-Game-Capture-HD60-technology/dp/B01DRWCOGA/?_encoding=UTF8&pd_rd_w=Es9bG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Legend-Zelda-Breath-Wild-Switch/dp/B01N33O68B/?_encoding=UTF8&pd_rd_w=Es9bG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Nintendo-HCCPADFJA-Super-Mario-Party/dp/B07DQ7KC8Q/?_encoding=UTF8&pd_rd_w=Es9bG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+503 -:- https://www.amazon.ca/SanDisk-MicroSDXC-Nintendo-Switch-SDSQXAO-128G-GNCZN/dp/B07KXQX3S3/?_encoding=UTF8&pd_rd_w=Es9bG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+503 -:- https://www.amazon.ca/PULSE-3D-Wireless-Headset-Pulse/dp/B08GSBRR9Q/?_encoding=UTF8&pd_rd_w=Es9bG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_3198031 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Hammermill-Bright-Letter-Sheets-113620/dp/B06XRMJPJC/?_encoding=UTF8&pd_rd_w=E0oIT&pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_trq_ed expected [true] but found [false],
+503 -:- https://www.amazon.ca/HP-Tri-Color-Original-Cartridges-N9H63FN/dp/B015IZ1E7E/?_encoding=UTF8&pd_rd_w=E0oIT&pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_trq_ed expected [true] but found [false],
+503 -:- https://www.amazon.ca/Public-Mobile-Card-Unlocked-Phones/dp/B07R6P5KBB/?_encoding=UTF8&pd_rd_w=E0oIT&pf_rd_p=4cea6f64-eab2-4d91-8926-ca33871b7619&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_trq_ed expected [true] but found [false],
+503 -:- https://www.amazon.ca/First-100-Words-Roger-Priddy/dp/0312510780/?_encoding=UTF8&pd_rd_w=yNENG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Atlas-Six-Olivie-Blake/dp/167991099X/?_encoding=UTF8&pd_rd_w=yNENG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Five-Little-Indians-Michelle-Good/dp/1443459186/?_encoding=UTF8&pd_rd_w=yNENG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Atomic-Habits-Proven-Build-Break/dp/0735211299/?_encoding=UTF8&pd_rd_w=yNENG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Malibu-Rising-Taylor-Jenkins-Reid/dp/038569220X/?_encoding=UTF8&pd_rd_w=yNENG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Blood-Ash-Jennifer-L-Armentrout/dp/1952457009/?_encoding=UTF8&pd_rd_w=yNENG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Your-Babys-First-Word-Will/dp/125007181X/?_encoding=UTF8&pd_rd_w=yNENG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Goodnight-Moon-Board-Margaret-Brown/dp/0694003611/?_encoding=UTF8&pd_rd_w=yNENG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Its-OK-Different-Childrens-Diversity/dp/0973410450/?_encoding=UTF8&pd_rd_w=yNENG&pf_rd_p=0d524680-5784-4706-81b2-6c35f269f5bd&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_916520 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Mkicesky-Sleeping-Orthopedic-Ergonomic-Pillowcase/dp/B08FJ9737F/ref=br_msw_pdt-1/146-9613179-8350611?_encoding=UTF8&smid=A2LZE0AJFZI27V&pf_rd_m=A3DWYIK6Y9EEQB&pf_rd_s=&pf_rd_r=20WSD1GPYE79B706TWPQ&pf_rd_t=36701&pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&pf_rd_i=desktop expected [true] but found [false],
+503 -:- https://www.amazon.ca/BOGI-Microfiber-Travel-Sports-Compact/dp/B077VQKR9Y/ref=br_msw_pdt-2/146-9613179-8350611?_encoding=UTF8&smid=A3D24YATG4ZDQZ&pf_rd_m=A3DWYIK6Y9EEQB&pf_rd_s=&pf_rd_r=20WSD1GPYE79B706TWPQ&pf_rd_t=36701&pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&pf_rd_i=desktop expected [true] but found [false],
+503 -:- https://www.amazon.ca/Premiere-Collection-Comfort-Difference-Charcoal/dp/B07DG3PMWK/ref=br_msw_pdt-4/146-9613179-8350611?_encoding=UTF8&smid=ALSACIQQS2IQL&pf_rd_m=A3DWYIK6Y9EEQB&pf_rd_s=&pf_rd_r=20WSD1GPYE79B706TWPQ&pf_rd_t=36701&pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&pf_rd_i=desktop expected [true] but found [false],
+503 -:- https://www.amazon.ca/BESTOPE-Synthetic-Foundation-Blending-Concealers/dp/B07BMRVSFS/ref=br_msw_pdt-6/146-9613179-8350611?_encoding=UTF8&smid=A3T1UHEPNW0KQ8&pf_rd_m=A3DWYIK6Y9EEQB&pf_rd_s=&pf_rd_r=20WSD1GPYE79B706TWPQ&pf_rd_t=36701&pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&pf_rd_i=desktop expected [true] but found [false],
+503 -:- https://www.amazon.ca/RELLECIGA-Womens-Purple-Waisted-Swimwear/dp/B0811LSGYB/ref=br_msw_pdt-10/146-9613179-8350611?_encoding=UTF8&smid=A1Z8HJXEZSSA0O&pf_rd_m=A3DWYIK6Y9EEQB&pf_rd_s=&pf_rd_r=20WSD1GPYE79B706TWPQ&pf_rd_t=36701&pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&pf_rd_i=desktop expected [true] but found [false],
+503 -:- https://www.amazon.ca/Cadrim-Clothes-Steamer-Portable-Handheld/dp/B083SCZ7K7/ref=br_msw_pdt-11/146-9613179-8350611?_encoding=UTF8&smid=A3QWIRA3CQ13JS&pf_rd_m=A3DWYIK6Y9EEQB&pf_rd_s=&pf_rd_r=20WSD1GPYE79B706TWPQ&pf_rd_t=36701&pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&pf_rd_i=desktop expected [true] but found [false],
+503 -:- https://www.amazon.ca/Treatment-Promote-Stretch-C-Sections-Surgical/dp/B08Q2Y1S6L/ref=br_msw_pdt-12/146-9613179-8350611?_encoding=UTF8&smid=A2LBT1C022LJC3&pf_rd_m=A3DWYIK6Y9EEQB&pf_rd_s=&pf_rd_r=20WSD1GPYE79B706TWPQ&pf_rd_t=36701&pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&pf_rd_i=desktop expected [true] but found [false],
+503 -:- https://www.amazon.ca/MLANM-Sleeve-Casual-Slim-fit-Cotton/dp/B08S6XWGTX/ref=br_msw_pdt-14/146-9613179-8350611?_encoding=UTF8&smid=AP2P9RKFCKBNN&pf_rd_m=A3DWYIK6Y9EEQB&pf_rd_s=&pf_rd_r=20WSD1GPYE79B706TWPQ&pf_rd_t=36701&pf_rd_p=6f84c098-94af-45c7-a44a-99e26ef133bb&pf_rd_i=desktop expected [true] but found [false],
+503 -:- https://www.amazon.ca/CeraVe-Hydrating-Cleanser-Sensitive-Fragrance-Free/dp/B0843XGN3H/?_encoding=UTF8&pd_rd_w=WAhKX&pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_6205124011 expected [true] but found [false],
+503 -:- https://www.amazon.ca/MelodySusie-Portable-Electric-Nail-Drill/dp/B01H05EDK0/?_encoding=UTF8&pd_rd_w=WAhKX&pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_6205124011 expected [true] but found [false],
+503 -:- https://www.amazon.ca/THINKA-PROCEDURE-MASK-EARLOOPS-50pcs/dp/B08K4J9755/?_encoding=UTF8&pd_rd_w=WAhKX&pf_rd_p=f95190d3-1242-461e-9e1e-c9293cea0789&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_crs_zg_bs_6205124011 expected [true] but found [false],
+503 -:- https://www.amazon.ca/b?node=18265355011 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Brightening-Hyaluronic-Fragrance-Dermatologist-Recommended/dp/B07Q4PY2DQ/ expected [true] but found [false],
+503 -:- https://www.amazon.ca/BABOR-CLEANSING-Rose-Toning-Essence/dp/B074KJ5KZS/ expected [true] but found [false],
+503 -:- https://www.amazon.ca/Mario-Badescu-Glycolic-Acid-Toner/dp/B000PHZ7HO/ expected [true] but found [false],
+503 -:- https://www.amazon.ca/b/?&node=2618860011&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4 expected [true] but found [false],
+503 -:- https://www.amazon.ca/Tomb-Raider-Bilingual-Blu-Ray-Digital/dp/B07BZBCWV8/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/Panther-Blu-ray-Bilingual-Chadwick-Boseman/dp/B079FLP3R2/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/Star-Wars-Episode-Blu-ray-Bilingual/dp/B0788FL36D/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/Wonder-Woman-Blu-ray-Chris-Wright/dp/B071LSNTVC/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/Spider-Man-Homecoming-Bilingual-Tom-Holland/dp/B073S1R6KJ/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/Rise-Planet-Apes-Bilingual-Blu-ray/dp/B00JF5G8V6/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/X-Men-Ultimate-Blu-ray-Digital-Bilingual/dp/B00KI2FYC4/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/Titanic-Blu-ray-Digital-Sous-titres-fran%C3%A7ais/dp/B007UPWIZ8/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/John-Wick-Chapter-Blu-ray-Bilingual/dp/B06ZZ5RMNH/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/Guardians-Galaxy-Blu-ray-Digital-Bilingual/dp/B06ZXWR8C5/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/Deadpool-Blu-ray-Digital-Copy-Bilingual/dp/B01BT0BFSU/?_encoding=UTF8&pd_rd_w=q1vxB&pf_rd_p=ca4446e4-1083-4d6c-9a85-b039bd62054b&pf_rd_r=20WSD1GPYE79B706TWPQ&pd_rd_r=7a7829d9-690d-4aaa-b2c7-262ef26c0e6c&pd_rd_wg=6Peg4&ref_=pd_gw_unk expected [true] but found [false],
+503 -:- https://www.amazon.ca/dp/B07MJM4F44?plattr=CACBCCFOOT&ref_=nav_cbcc_ca_footer expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=21371066011&ref_=footer_swp expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/gc/create?ref_=footer_reload_ca expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=8438004011&ref_=footer_tfx_ca_en expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=9230166011&ref_=footer_gift_cards_ca_en expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=17321486011&ref_=footer_cash_ca_en expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/css/returns/homepage.html?ref_=footer_hy_f_4 expected [true] but found [false],
+503 -:- https://www.amazon.ca/?ref_=footer_logo expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=16055944011&ref_=_gno_p_foot expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=8929975011&ref_=footer_warehouse_deals expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/browse.html?node=17351028011&ref_=footer_carenew expected [true] but found [false],
+503 -:- https://www.amazon.ca/gp/help/customer/display.html?nodeId=202146130&ref_=footer_iba expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testcases.HomePageAmaCheck.getAmountBrokenLinksOnPage(HomePageAmaCheck.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAmountBrokenLinksOnPage -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:testcases.HomePageAmaCheck@60afd40d]" started-at="2021-06-02T22:06:01 EDT" name="driverClose" finished-at="2021-06-02T22:06:06 EDT" duration-ms="4171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- testcases.HomePageAmaCheck -->
+    </test> <!-- AmaHomePageCheck -->
+  </suite> <!-- EcommerceApps -->
+</testng-results>
